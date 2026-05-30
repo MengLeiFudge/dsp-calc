@@ -1,19 +1,19 @@
 import type {CoreNumericMap, EquivalentRecipe} from '@engine/core/equivalentRecipe';
+import {getFactorioBoundingBoxArea} from './prototype';
+import type {FactorioEntityPrototype, FactorioPrototypeBase, FactorioPrototypeMap} from './prototype';
 
-export type FactorioPrototypeMap<T> = Record<string, T>;
+const FACTORIO_CRAFTING_MACHINE_TYPES = ['assembling-machine', 'furnace', 'rocket-silo'] as const;
 
 export interface FactorioRawDump {
     recipe?: FactorioPrototypeMap<FactorioRecipePrototype>;
-}
-
-export interface FactorioPrototypeBase {
-    type?: string;
-    name: string;
-    localised_name?: unknown;
+    'assembling-machine'?: FactorioPrototypeMap<FactorioCraftingMachinePrototype>;
+    furnace?: FactorioPrototypeMap<FactorioCraftingMachinePrototype>;
+    'rocket-silo'?: FactorioPrototypeMap<FactorioCraftingMachinePrototype>;
 }
 
 export interface FactorioRecipePrototype extends FactorioPrototypeBase {
     category?: string;
+    additional_categories?: string[];
     ingredients?: FactorioRecipeIngredient[];
     results?: FactorioRecipeResult[];
     main_product?: string;
@@ -67,6 +67,15 @@ export interface FactorioFluidResult extends FactorioBaseResult {
 export interface FactorioNormalizedOutput {
     baseYield: number;
     productivityYield: number;
+}
+
+export interface FactorioCraftingMachinePrototype extends FactorioEntityPrototype {
+    crafting_speed?: number;
+    crafting_categories?: string[];
+    fixed_recipe?: string;
+    launch_to_space_platforms?: boolean;
+    to_be_inserted_to_rocket_inventory_size?: number;
+    rocket_parts_required?: number;
 }
 
 function addAmount(map: CoreNumericMap, itemId: string, amount: number): void {
@@ -228,10 +237,73 @@ export function toFactorioEquivalentRecipe(recipe: FactorioRecipePrototype, cost
     };
 }
 
+export function factorioMachineFitsRecipe(
+    machine: FactorioCraftingMachinePrototype,
+    recipe: FactorioRecipePrototype
+): boolean {
+    if (machine.fixed_recipe !== undefined && machine.fixed_recipe !== recipe.name) {
+        return false;
+    }
+
+    const machineCategories = machine.crafting_categories ?? [];
+    const recipeCategory = recipe.category ?? 'crafting';
+    if (machineCategories.includes(recipeCategory)) {
+        return true;
+    }
+    return (recipe.additional_categories ?? []).some(category => machineCategories.includes(category));
+}
+
+export function toFactorioMachineEquivalentRecipe({
+                                                      recipe,
+                                                      machine,
+                                                      cost,
+                                                  }: {
+    recipe: FactorioRecipePrototype;
+    machine: FactorioCraftingMachinePrototype;
+    cost?: number;
+}): EquivalentRecipe {
+    const {inputs, outputs} = buildFactorioRecipeFlow(recipe);
+    const craftingSpeed = machine.crafting_speed ?? 1;
+    return {
+        id: `factorio:recipe:${recipe.name}:${machine.name}`,
+        inputs,
+        outputs,
+        duration: (recipe.energy_required ?? 0.5) / craftingSpeed,
+        cost: cost ?? getFactorioBoundingBoxArea(machine.collision_box),
+        sourceRef: {
+            gameId: 'factorio',
+            rawRecipeId: recipe.name,
+            prototypeType: 'recipe',
+            machineId: machine.name,
+        },
+        display: {
+            name: recipe.name,
+            buildingName: machine.name,
+        },
+    };
+}
+
 export function loadFactorioRecipesFromRawDump(rawDump: FactorioRawDump): FactorioRecipePrototype[] {
     return Object.values(rawDump.recipe ?? {});
 }
 
+export function loadFactorioCraftingMachinesFromRawDump(rawDump: FactorioRawDump): FactorioCraftingMachinePrototype[] {
+    return FACTORIO_CRAFTING_MACHINE_TYPES.flatMap(prototypeType => Object.values(rawDump[prototypeType] ?? {}));
+}
+
 export function buildFactorioEquivalentRecipesFromRawDump(rawDump: FactorioRawDump, cost = 0): EquivalentRecipe[] {
     return loadFactorioRecipesFromRawDump(rawDump).map(recipe => toFactorioEquivalentRecipe(recipe, cost));
+}
+
+export function buildFactorioMachineEquivalentRecipesFromRawDump(rawDump: FactorioRawDump): EquivalentRecipe[] {
+    const recipes: EquivalentRecipe[] = [];
+    for (const recipe of loadFactorioRecipesFromRawDump(rawDump)) {
+        for (const machine of loadFactorioCraftingMachinesFromRawDump(rawDump)) {
+            if (!factorioMachineFitsRecipe(machine, recipe)) {
+                continue;
+            }
+            recipes.push(toFactorioMachineEquivalentRecipe({recipe, machine}));
+        }
+    }
+    return recipes;
 }

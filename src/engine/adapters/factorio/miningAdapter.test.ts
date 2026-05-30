@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict';
 import {
     buildFactorioMiningEquivalentRecipesFromRawDump,
-    getFactorioBoundingBoxArea,
     getFactorioEntityId,
     factorioMinerFitsResource,
     toFactorioMiningEquivalentRecipe,
 } from './miningAdapter';
+import {getFactorioBoundingBoxArea} from './prototype';
 import {getFactorioFluidId, getFactorioItemId} from './recipeAdapter';
 import type {FactorioMiningDrillPrototype, FactorioResourcePrototype} from './miningAdapter';
 

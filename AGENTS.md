@@ -170,7 +170,8 @@ src/
 | `src/ui/app/providers/AppProviders.tsx` | Context 与全局状态装配 |
 | `src/engine/core/equivalentRecipe.ts` | 通用等效配方类型 |
 | `src/engine/adapters/dsp/equivalentRecipeAdapter.ts` | DSP 等效配方适配入口 |
-| `src/engine/adapters/factorio/recipeAdapter.ts` | Factorio 配方 prototype 到通用等效配方的适配入口 |
+| `src/engine/adapters/factorio/prototype.ts` | Factorio prototype 公共类型与实体占地工具 |
+| `src/engine/adapters/factorio/recipeAdapter.ts` | Factorio 配方/制造机器 prototype 到通用等效配方的适配入口 |
 | `src/engine/adapters/factorio/miningAdapter.ts` | Factorio 采矿 prototype 到通用等效配方的适配入口 |
 | `src/engine/data/gameData.ts` | 游戏数据装配入口 |
 | `src/engine/scheme/schemeData.ts` | 方案数据入口 |

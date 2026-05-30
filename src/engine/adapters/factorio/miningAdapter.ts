@@ -5,31 +5,20 @@ import {
     normalizeFactorioFluidResult,
     normalizeFactorioItemResult,
 } from './recipeAdapter';
+import {getFactorioBoundingBoxArea} from './prototype';
 import type {
     FactorioFluidResult,
     FactorioItemResult,
-    FactorioPrototypeBase,
-    FactorioPrototypeMap,
     FactorioRawDump,
     FactorioRecipeResult,
 } from './recipeAdapter';
+import type {FactorioEntityPrototype, FactorioPrototypeMap} from './prototype';
 
-export interface FactorioEntityPrototype extends FactorioPrototypeBase {
-    collision_box?: FactorioBoundingBox;
+export interface FactorioMinableEntityPrototype extends FactorioEntityPrototype {
     minable?: FactorioMiningProperty;
 }
 
-export type FactorioBoundingBox = FactorioBoundingBoxPair | FactorioBoundingBoxStruct;
-export type FactorioBoundingBoxPair = [FactorioMapPosition, FactorioMapPosition];
-
-export interface FactorioBoundingBoxStruct {
-    left_top: FactorioMapPosition;
-    right_bottom: FactorioMapPosition;
-}
-
-export type FactorioMapPosition = [number, number] | {x: number; y: number};
-
-export interface FactorioResourcePrototype extends FactorioEntityPrototype {
+export interface FactorioResourcePrototype extends FactorioMinableEntityPrototype {
     category?: string;
     infinite?: boolean;
 }
@@ -61,24 +50,8 @@ function addAmount(map: CoreNumericMap, itemId: string, amount: number): void {
     map[itemId] = (map[itemId] ?? 0) + amount;
 }
 
-function getPosition(position: FactorioMapPosition): {x: number; y: number} {
-    if (Array.isArray(position)) {
-        return {x: position[0], y: position[1]};
-    }
-    return position;
-}
-
 export function getFactorioEntityId(name: string, quality = 0): string {
     return quality > 0 ? `entity:${name}@q${quality}` : `entity:${name}`;
-}
-
-export function getFactorioBoundingBoxArea(collisionBox: FactorioBoundingBox | undefined): number {
-    if (!collisionBox) {
-        return 1;
-    }
-    const leftTop = getPosition(Array.isArray(collisionBox) ? collisionBox[0] : collisionBox.left_top);
-    const rightBottom = getPosition(Array.isArray(collisionBox) ? collisionBox[1] : collisionBox.right_bottom);
-    return Math.ceil(rightBottom.x - leftTop.x) * Math.ceil(rightBottom.y - leftTop.y);
 }
 
 export function factorioMinerFitsResource(
