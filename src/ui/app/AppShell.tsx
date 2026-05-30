@@ -1,5 +1,5 @@
 import {lazy, Suspense, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState} from 'react';
-import {FaCog, FaSlidersH, FaTrashAlt} from 'react-icons/fa';
+import {FaCog, FaIndustry, FaRocket, FaSlidersH, FaTrashAlt} from 'react-icons/fa';
 import {Offcanvas} from 'react-bootstrap';
 import {ContextProvider} from './providers/AppProviders';
 import {GlobalStateContext, SettingsContext} from './providers/app-contexts';
@@ -19,13 +19,21 @@ import {SchemeStorage} from '@ui/features/settings/SchemeStorageControls';
 import {get_default_settings_for_game_data} from './providers/default-settings';
 import {decode_mod_selection, default_game_data, encode_mod_selection, get_game_data} from '@engine/data/gameData';
 import {init_low_footprint_scheme_data} from '@engine/scheme/defaultScheme';
+import {FactorioCalculatorPage} from '@ui/features/factorio/FactorioCalculatorPage';
 import type {GameData, NumericMap} from '@engine/types/domain';
+import type {ReactNode} from 'react';
 
 const BatchSetting = lazy(() => import('@ui/features/result/BatchPresetControls').then(module => ({default: module.BatchSetting})));
 const Result = lazy(() => import('@ui/features/result/ResultPanel').then(module => ({default: module.Result})));
 const Settings = lazy(() => import('@ui/features/settings/SettingsPanel').then(module => ({default: module.Settings})));
 
 type ToolbarActionsMode = 'full' | 'buttons-compact' | 'icons-only';
+type GamePage = 'dsp' | 'factorio';
+
+const gamePageOptions: Array<{id: GamePage; label: string; icon: typeof FaRocket}> = [
+    {id: 'dsp', label: '戴森球计划', icon: FaRocket},
+    {id: 'factorio', label: '异星工厂', icon: FaIndustry},
+];
 
 function measureToolbarActionsWidth(toolbarRow: HTMLDivElement, mode: ToolbarActionsMode): number {
     const clone = toolbarRow.cloneNode(true) as HTMLDivElement;
@@ -73,7 +81,43 @@ function UserSettings({
     </Offcanvas>;
 }
 
-function AppWithContexts({initial_needs_list}: {initial_needs_list?: NumericMap}) {
+function GamePageSwitcher({
+    activePage,
+    setActivePage,
+}: {
+    activePage: GamePage;
+    setActivePage: (nextPage: GamePage) => void;
+}) {
+    return <div className="game-page-switcher" role="group" aria-label="计算器页面切换">
+        {gamePageOptions.map(({id, label, icon: Icon}) => (
+            <button key={id}
+                    type="button"
+                    className={`game-page-switcher-button${activePage === id ? ' game-page-switcher-button-active' : ''}`}
+                    aria-pressed={activePage === id}
+                    onClick={() => setActivePage(id)}>
+                <Icon/>
+                <span>{label}</span>
+            </button>
+        ))}
+    </div>;
+}
+
+function CalculatorPageShell({
+    activePage,
+    setActivePage,
+    children,
+}: {
+    activePage: GamePage;
+    setActivePage: (nextPage: GamePage) => void;
+    children: ReactNode;
+}) {
+    return <div className="calculator-page">
+        <GamePageSwitcher activePage={activePage} setActivePage={setActivePage}/>
+        {children}
+    </div>;
+}
+
+function DspCalculatorPage({initial_needs_list}: {initial_needs_list?: NumericMap}) {
     const global_state = useContext(GlobalStateContext);
     const settings = useContext(SettingsContext);
     const [misc_show, set_misc_show] = useState(false);
@@ -135,7 +179,7 @@ function AppWithContexts({initial_needs_list}: {initial_needs_list?: NumericMap}
         };
     }, []);
 
-    return <div className="calculator-page">
+    return <>
         <div className="calculator-toolbar-stack">
             {/*游戏版本、模组选择*/}
             <div className="calculator-toolbar-row d-flex column-gap-4 row-gap-2 flex-wrap">
@@ -194,10 +238,11 @@ function AppWithContexts({initial_needs_list}: {initial_needs_list?: NumericMap}
                 />
             </Suspense>
         </div>
-    </div>;
+    </>;
 }
 
 export default function App() {
+    const [activePage, setActivePage] = useState<GamePage>('dsp');
     const raw_url_state = useMemo(() => readCalculatorUrlState(), []);
     const initial_mods = useMemo(() => decode_mod_selection(raw_url_state?.m), [raw_url_state]);
     const [initial_game_data, set_initial_game_data] = useState<GameData | undefined>(
@@ -230,17 +275,25 @@ export default function App() {
         );
     }, [initial_game_data, raw_url_state]);
 
-    if (!initial_game_data) {
-        return <div className="calculator-page">
-            <div className="small text-muted">加载分享链接配置中...</div>
-        </div>;
+    if (activePage === 'factorio') {
+        return <CalculatorPageShell activePage={activePage} setActivePage={setActivePage}>
+            <FactorioCalculatorPage/>
+        </CalculatorPageShell>;
     }
 
-    return <ContextProvider
-        initial_game_data={initial_game_data}
-        initial_mods={initial_mods}
-        initial_state={initial_url_state}
-    >
-        <AppWithContexts initial_needs_list={initial_url_state?.needs_list}/>
-    </ContextProvider>;
+    if (!initial_game_data) {
+        return <CalculatorPageShell activePage={activePage} setActivePage={setActivePage}>
+            <div className="small text-muted">加载分享链接配置中...</div>
+        </CalculatorPageShell>;
+    }
+
+    return <CalculatorPageShell activePage={activePage} setActivePage={setActivePage}>
+        <ContextProvider
+            initial_game_data={initial_game_data}
+            initial_mods={initial_mods}
+            initial_state={initial_url_state}
+        >
+            <DspCalculatorPage initial_needs_list={initial_url_state?.needs_list}/>
+        </ContextProvider>
+    </CalculatorPageShell>;
 }

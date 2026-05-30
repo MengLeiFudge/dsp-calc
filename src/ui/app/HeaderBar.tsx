@@ -14,7 +14,7 @@ export function Header() {
         <Navbar className="px-3 header-navbar" bg="light" expand="lg">
             <Navbar.Brand href="#" className="d-inline-flex align-items-baseline flex-wrap header-brand">
                 <FaReact className="me-2 align-self-center"/>
-                <span className="me-1">戴森球计划量化计算器</span>
+                <span className="me-1">生产量化计算器</span>
                 <span className="text-muted ssmall">v{version}</span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarNav"/>

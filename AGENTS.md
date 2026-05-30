@@ -168,6 +168,7 @@ src/
 | `src/ui/app/bootstrap.tsx` | 前端入口 |
 | `src/ui/app/AppShell.tsx` | 页面主装配 |
 | `src/ui/app/providers/AppProviders.tsx` | Context 与全局状态装配 |
+| `src/ui/features/factorio/FactorioCalculatorPage.tsx` | Factorio 初版页面入口 |
 | `src/engine/core/equivalentRecipe.ts` | 通用等效配方类型 |
 | `src/engine/adapters/dsp/equivalentRecipeAdapter.ts` | DSP 等效配方适配入口 |
 | `src/engine/adapters/factorio/prototype.ts` | Factorio prototype 公共类型与实体占地工具 |
