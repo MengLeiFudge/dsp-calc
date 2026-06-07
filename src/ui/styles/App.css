@@ -652,6 +652,12 @@ legend {
     flex-direction: column;
 }
 
+.result-table-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+}
+
 .result-table-scroll {
     width: 100%;
     flex: 1 1 auto;

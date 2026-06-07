@@ -1,6 +1,6 @@
 import {type PointerEvent as ReactPointerEvent, useContext, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {Offcanvas} from 'react-bootstrap';
-import {FaChartBar} from 'react-icons/fa';
+import {FaChartBar, FaFileExport} from 'react-icons/fa';
 import {GlobalState} from '@engine/calculation/globalState';
 import structuredClone from '@ungap/structured-clone';
 import {GameInfoContext, GlobalStateContext, SchemeDataSetterContext, SettingsSetterContext} from '@ui/app/providers/app-contexts';
@@ -11,6 +11,7 @@ import {buildSideProducts} from './resultGraphHelpers';
 import {addMineralizedItem, clearMineralizedItems, hasMineralizedItem, removeMineralizedItem} from '@engine/calculation/mineralizeState';
 import {buildResultRowActions} from './resultRowActions';
 import {buildResultRowsViewModel} from './resultRowsViewModel';
+import {buildCalculatorTableExportData, downloadCalculatorTableExport} from './resultTableExport';
 import {ResultTableRow} from './ResultTableRow';
 import {ceilFromDisplayed, roundToFixed} from '@lib/number';
 import {calculateRawFactoryNumber} from './factoryCount';
@@ -571,6 +572,23 @@ export function Result({
 
     const total_buildings = Object.values(building_list).reduce<number>((acc, v) => acc + Number(v || 0), 0);
 
+    function export_table_data() {
+        downloadCalculatorTableExport(buildCalculatorTableExportData({
+            globalState: global_state,
+            needsList: needs_list,
+            resultDict: result_dict,
+            rowViewModels: row_view_models,
+            buildingList: building_list,
+            rawMaterialList: raw_material_list,
+            energyCost: energy_cost,
+            minerEnergyCost: miner_energy_cost,
+            fixedNum: fixed_num,
+            itemGraph: item_graph,
+            naturalProductionLine: natural_production_line,
+            timeTick: time_tick,
+        }));
+    }
+
     const sidebar_node = <ResultSidebar
         RESULT_ICON_SIZE={RESULT_ICON_SIZE}
         building_list={building_list}
@@ -595,6 +613,16 @@ export function Result({
     return <>
         <div ref={result_layout_ref} className="result-layout mt-2 mb-3">
             <div ref={result_table_shell_ref} className="result-table-shell">
+                <div className="result-table-toolbar">
+                    <button type="button"
+                            className="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-1 mobile-icon-button"
+                            title="导出表格"
+                            aria-label="导出表格"
+                            onClick={export_table_data}>
+                        <FaFileExport/>
+                        <span className="mobile-icon-button-label">导出表格</span>
+                    </button>
+                </div>
                 {lp_issue_alert}
                 <div className="result-table-scroll">
                     <table className="table table-sm align-middle w-auto result-table">
