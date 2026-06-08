@@ -1,8 +1,10 @@
 import structuredClone from '@ungap/structured-clone';
 import {useContext} from 'react';
-import {GlobalStateContext, SchemeDataSetterContext} from '@ui/app/providers/app-contexts';
+import {GlobalStateContext, SchemeDataSetterContext, SettingsSetterContext} from '@ui/app/providers/app-contexts';
 import {HorizontalMultiButtonSelect} from '@ui/components/controls/HorizontalMultiButtonSelect';
+import {ItemIcon} from '@ui/components/icons/ItemIcon';
 import {GlobalState} from '@engine/calculation/globalState';
+import {getMineralizedItemNames} from '@engine/calculation/mineralizeState';
 import {
     type BatchProMode,
     getLowFootprintProliferatorModeForRecipe,
@@ -11,6 +13,7 @@ import {
 import type {NumericMap, RecipeScheme, SchemeData, Settings} from '@engine/types/domain';
 import type {HorizontalOption} from '@ui/types/ui';
 import {pro_mode_class} from './resultSelectorClasses';
+import {ProNumSelect} from './ResultRecipeSelectors';
 
 // TODO refactor to some other modules
 function updateSchemesForRecipes(old_scheme_data, should_update, updater) {
@@ -82,12 +85,24 @@ export function BatchSetting({
 }) {
     const global_state = useContext(GlobalStateContext);
     const set_scheme_data = useContext(SchemeDataSetterContext);
+    const set_settings = useContext(SettingsSetterContext);
     const game_data = global_state.game_data;
     const scheme_data = global_state.scheme_data;
+    const settings = global_state.settings;
     const proliferator_price = global_state.proliferator_price;
 
     const pro_mode = detectBatchProMode();
     const pro_num = detectBatchProliferatorPoints();
+    const external_input_items = Array.from(new Set([
+        ...getMineralizedItemNames(settings.mineralize_list),
+        ...Object.keys(settings.external_input_proliferator_points_by_item || {}),
+    ])).sort((left, right) => left.localeCompare(right, 'zh-Hans-CN'));
+    const external_output_items = Array.from(new Set([
+        ...Object.entries(needs_list)
+            .filter(([, amount]) => Math.abs(Number(amount || 0)) > 1e-6)
+            .map(([item]) => item),
+        ...Object.keys(settings.external_output_proliferator_points_by_item || {}),
+    ])).sort((left, right) => left.localeCompare(right, 'zh-Hans-CN'));
 
     const pro_num_item = {};
     for (const data of game_data.proliferator_data) {
@@ -239,6 +254,148 @@ export function BatchSetting({
         });
     }
 
+    function rememberExternalSprayBaseline() {
+        captureComparisonBaseline({
+            needs_list: structuredClone(needs_list),
+            scheme_data: structuredClone(global_state.raw_scheme_data),
+            settings: structuredClone(global_state.settings),
+        });
+    }
+
+    function change_external_input_points(points: number) {
+        rememberExternalSprayBaseline();
+        set_settings({external_input_proliferator_points: points});
+    }
+
+    function change_external_output_points(points: number) {
+        rememberExternalSprayBaseline();
+        set_settings({external_output_proliferator_points: points});
+    }
+
+    function change_external_input_item_points(item: string, points: number) {
+        rememberExternalSprayBaseline();
+        set_settings({
+            external_input_proliferator_points_by_item: {
+                ...(settings.external_input_proliferator_points_by_item || {}),
+                [item]: points,
+            },
+        });
+    }
+
+    function change_external_output_item_points(item: string, points: number) {
+        rememberExternalSprayBaseline();
+        set_settings({
+            external_output_proliferator_points_by_item: {
+                ...(settings.external_output_proliferator_points_by_item || {}),
+                [item]: points,
+            },
+        });
+    }
+
+    function clear_external_input_item_points(item: string) {
+        rememberExternalSprayBaseline();
+        const next_points = {...(settings.external_input_proliferator_points_by_item || {})};
+        delete next_points[item];
+        set_settings({external_input_proliferator_points_by_item: next_points});
+    }
+
+    function clear_external_output_item_points(item: string) {
+        rememberExternalSprayBaseline();
+        const next_points = {...(settings.external_output_proliferator_points_by_item || {})};
+        delete next_points[item];
+        set_settings({external_output_proliferator_points_by_item: next_points});
+    }
+
+    function renderExternalSprayRows({
+        items,
+        override_points,
+        fallback_points,
+        onChange,
+        onClear,
+    }: {
+        items: string[];
+        override_points: NumericMap;
+        fallback_points: number;
+        onChange: (item: string, points: number) => void;
+        onClear: (item: string) => void;
+    }) {
+        if (items.length === 0) {
+            return null;
+        }
+        return <div className="external-spray-item-list">
+            {items.map(item => {
+                const has_override = override_points[item] !== undefined;
+                const points = has_override ? Number(override_points[item] || 0) : fallback_points;
+                return <div key={item} className="external-spray-item-row">
+                    <span className="external-spray-item-name">
+                        <ItemIcon item={item} size={18}/>
+                        <span>{item}</span>
+                    </span>
+                    <ProNumSelect
+                        choice={points}
+                        includeNone={true}
+                        no_gap={true}
+                        onChange={next_points => onChange(item, next_points)}
+                    />
+                    <button type="button"
+                            className="btn btn-outline-secondary btn-sm external-spray-inherit-button"
+                            disabled={!has_override}
+                            onClick={() => onClear(item)}>
+                        继承
+                    </button>
+                </div>;
+            })}
+        </div>;
+    }
+
+    const external_spray_panel = <fieldset className="batch-setting-section external-spray-section">
+        <legend><small>外部喷涂</small></legend>
+        <div className="external-spray-global-grid">
+            <div className="external-spray-global-row">
+                <span className="external-spray-label">输入统一</span>
+                <ProNumSelect
+                    choice={Number(settings.external_input_proliferator_points || 0)}
+                    includeNone={true}
+                    no_gap={true}
+                    onChange={change_external_input_points}
+                />
+            </div>
+            <div className="external-spray-global-row">
+                <span className="external-spray-label">输出统一</span>
+                <ProNumSelect
+                    choice={Number(settings.external_output_proliferator_points || 0)}
+                    includeNone={true}
+                    no_gap={true}
+                    onChange={change_external_output_points}
+                />
+            </div>
+        </div>
+        <div className="external-spray-overrides">
+            {external_input_items.length > 0 &&
+                <div className="external-spray-override-group">
+                    <div className="external-spray-override-title">输入逐项</div>
+                    {renderExternalSprayRows({
+                        items: external_input_items,
+                        override_points: settings.external_input_proliferator_points_by_item || {},
+                        fallback_points: Number(settings.external_input_proliferator_points || 0),
+                        onChange: change_external_input_item_points,
+                        onClear: clear_external_input_item_points,
+                    })}
+                </div>}
+            {external_output_items.length > 0 &&
+                <div className="external-spray-override-group">
+                    <div className="external-spray-override-title">输出逐项</div>
+                    {renderExternalSprayRows({
+                        items: external_output_items,
+                        override_points: settings.external_output_proliferator_points_by_item || {},
+                        fallback_points: Number(settings.external_output_proliferator_points || 0),
+                        onChange: change_external_output_item_points,
+                        onClear: clear_external_output_item_points,
+                    })}
+                </div>}
+        </div>
+    </fieldset>;
+
     const promode_options: HorizontalOption<BatchProMode>[] = [
         {value: 0, label: "无"},
         {value: 1, label: "仅加速", className: pro_mode_class[1]},
@@ -247,12 +404,17 @@ export function BatchSetting({
         {value: 4, label: "占地最小", className: pro_mode_class[1]},
     ];
 
-    return <div className="batch-setting-panel mt-3 d-inline-flex flex-wrap column-gap-3 row-gap-2 align-items-center">
-        <small className="fw-bold">批量预设</small>
-        {pro_mode !== 0 && <HorizontalMultiButtonSelect choice={pro_num} options={proliferate_options}
-                                                        onChange={change_pro_num} no_gap={true} className={"raw-text-selection"}/>}
-        <HorizontalMultiButtonSelect choice={pro_mode} options={promode_options}
-                                     onChange={change_pro_mode} no_gap={true} className={"raw-text-selection"}/>
-        {factory_doms}
+    return <div className="batch-setting-panel mt-3">
+        <fieldset className="batch-setting-section">
+            <legend><small>批量预设</small></legend>
+            <div className="d-inline-flex flex-wrap column-gap-3 row-gap-2 align-items-center">
+                {pro_mode !== 0 && <HorizontalMultiButtonSelect choice={pro_num} options={proliferate_options}
+                                                                onChange={change_pro_num} no_gap={true} className={"raw-text-selection"}/>}
+                <HorizontalMultiButtonSelect choice={pro_mode} options={promode_options}
+                                             onChange={change_pro_mode} no_gap={true} className={"raw-text-selection"}/>
+                {factory_doms}
+            </div>
+        </fieldset>
+        {external_spray_panel}
     </div>;
 }

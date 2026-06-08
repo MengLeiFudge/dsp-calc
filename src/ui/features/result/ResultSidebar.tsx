@@ -1,6 +1,5 @@
 import {ItemIcon} from '@ui/components/icons/ItemIcon';
 import {FaTrashAlt} from 'react-icons/fa';
-import {ProNumSelect} from './ResultRecipeSelectors';
 
 function ValueWithDifference({
     currentValue,
@@ -46,8 +45,6 @@ export function ResultSidebar({
     is_time_unit_minute,
     mineralize_list,
     miner_energy_cost,
-    onChangeExternalInputProliferatorPoints,
-    onChangeExternalOutputProliferatorPoints,
     previous_sidebar_metrics,
     raw_material_list,
     settings,
@@ -100,33 +97,6 @@ export function ResultSidebar({
         item,
         value: quant,
     }));
-
-    function renderExternalProliferatorControls() {
-        return <div className="d-flex flex-column gap-2 external-proliferator-controls">
-            <div className="external-proliferator-row">
-                <span className="external-proliferator-label">输入</span>
-                <div className="external-proliferator-buttons">
-                    <ProNumSelect
-                        choice={Number(settings.external_input_proliferator_points || 0)}
-                        includeNone={true}
-                        no_gap={true}
-                        onChange={onChangeExternalInputProliferatorPoints}
-                    />
-                </div>
-            </div>
-            <div className="external-proliferator-row">
-                <span className="external-proliferator-label">输出</span>
-                <div className="external-proliferator-buttons">
-                    <ProNumSelect
-                        choice={Number(settings.external_output_proliferator_points || 0)}
-                        includeNone={true}
-                        no_gap={true}
-                        onChange={onChangeExternalOutputProliferatorPoints}
-                    />
-                </div>
-            </div>
-        </div>;
-    }
 
     function renderFullBeltControls() {
         return <div className="full-belt-controls">
@@ -364,11 +334,6 @@ export function ResultSidebar({
                 <legend><small>外部补充需求{unit_text}</small></legend>
                 {external_supply_display}
             </fieldset>}
-
-        <fieldset className="result-sidebar-card">
-            <legend><small>外部增产</small></legend>
-            {renderExternalProliferatorControls()}
-        </fieldset>
 
         {belt_options.length > 0 &&
             <fieldset className="result-sidebar-card">

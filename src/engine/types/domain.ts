@@ -149,6 +149,8 @@ export interface Settings {
     external_supply_proliferator_points: NumericMap;
     external_input_proliferator_points: number;
     external_output_proliferator_points: number;
+    external_input_proliferator_points_by_item: NumericMap;
+    external_output_proliferator_points_by_item: NumericMap;
     full_belt_item: string;
     full_belt_stack: number;
     natural_production_line: NaturalProductionLineRow[];

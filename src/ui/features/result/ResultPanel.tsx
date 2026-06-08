@@ -389,16 +389,6 @@ export function Result({
         set_settings({"mineralize_list": clearMineralizedItems()});
     }
 
-    function update_external_input_proliferator_points(points: number) {
-        rememberComparisonBaseline();
-        set_settings({external_input_proliferator_points: points});
-    }
-
-    function update_external_output_proliferator_points(points: number) {
-        rememberComparisonBaseline();
-        set_settings({external_output_proliferator_points: points});
-    }
-
     function update_full_belt_item(item: string) {
         rememberComparisonBaseline();
         set_settings({full_belt_item: item});
@@ -615,8 +605,6 @@ export function Result({
         is_time_unit_minute={settings.is_time_unit_minute}
         mineralize_list={mineralize_list}
         miner_energy_cost={miner_energy_cost}
-        onChangeExternalInputProliferatorPoints={update_external_input_proliferator_points}
-        onChangeExternalOutputProliferatorPoints={update_external_output_proliferator_points}
         onChangeFullBeltItem={update_full_belt_item}
         onChangeFullBeltStack={update_full_belt_stack}
         previous_sidebar_metrics={previous_sidebar_metrics}

@@ -1,5 +1,13 @@
 import type {CalculationSnapshot, NumericMap} from '@engine/types/domain';
 
+function getExternalOutputProliferatorPoints(snapshot: CalculationSnapshot, item: string): number {
+    const override_points = snapshot.settings.external_output_proliferator_points_by_item?.[item];
+    if (override_points !== undefined) {
+        return Number(override_points || 0);
+    }
+    return Number(snapshot.settings.external_output_proliferator_points || 0);
+}
+
 function addItemCount(dict: NumericMap, item: string, count: number): void {
     if (!count) {
         return;
@@ -8,14 +16,13 @@ function addItemCount(dict: NumericMap, item: string, count: number): void {
 }
 
 function addExternalOutputSprayDemand(snapshot: CalculationSnapshot, in_out_list: NumericMap): void {
-    const output_points = Number(snapshot.settings.external_output_proliferator_points || 0);
-    const proliferator_cost = snapshot.proliferator_price[output_points];
-    if (output_points === 0 || proliferator_cost === -1 || proliferator_cost === undefined) {
-        return;
-    }
-
-    Object.entries({...in_out_list}).forEach(([, amount]) => {
+    Object.entries({...in_out_list}).forEach(([item, amount]) => {
         if (amount <= 0) {
+            return;
+        }
+        const output_points = getExternalOutputProliferatorPoints(snapshot, item);
+        const proliferator_cost = snapshot.proliferator_price[output_points];
+        if (output_points === 0 || proliferator_cost === -1 || proliferator_cost === undefined) {
             return;
         }
         Object.entries(proliferator_cost).forEach(([proliferator_item, unit_cost]) => {

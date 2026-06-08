@@ -41,6 +41,8 @@ export const DEFAULT_SETTINGS: Settings = {
     external_supply_proliferator_points: {},
     external_input_proliferator_points: 0,
     external_output_proliferator_points: 0,
+    external_input_proliferator_points_by_item: {},
+    external_output_proliferator_points_by_item: {},
     full_belt_item: "极速传送带",
     full_belt_stack: 4,
     natural_production_line: [],

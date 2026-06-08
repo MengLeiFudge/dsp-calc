@@ -55,7 +55,10 @@ export function buildNormalizedSchemeData(game_data: GameData, item_data: ItemDa
 }
 
 export function getExternalSupplyItemNames(settings: Settings): string[] {
-    const items = new Set<string>(getMineralizedItemNames(settings.mineralize_list));
+    const items = new Set<string>([
+        ...getMineralizedItemNames(settings.mineralize_list),
+        ...Object.keys(settings.external_input_proliferator_points_by_item || {}),
+    ]);
     return Array.from(items);
 }
 
@@ -91,7 +94,10 @@ export function getNaturalLineProliferatorPoints(row: Settings['natural_producti
     return row["增产模式"] === 0 ? 0 : row["增产点数"];
 }
 
-export function getExternalInputProliferatorPoints(settings: Settings): number {
+export function getExternalInputProliferatorPoints(settings: Settings, item?: string): number {
+    if (item && settings.external_input_proliferator_points_by_item?.[item] !== undefined) {
+        return Number(settings.external_input_proliferator_points_by_item[item] || 0);
+    }
     return Number(settings.external_input_proliferator_points || 0);
 }
 
@@ -105,7 +111,7 @@ export function buildExternalSupplyProliferatorPoints(
     return Object.fromEntries(
         getExternalSupplyItemNames(settings).map(item => [
             item,
-            getExternalInputProliferatorPoints(settings),
+            getExternalInputProliferatorPoints(settings, item),
         ])
     );
 }
@@ -126,7 +132,7 @@ export function buildExternalSupplyPointSources(
             sources.push({
                 item,
                 amount,
-                proliferatorPoints: getExternalInputProliferatorPoints(settings),
+                proliferatorPoints: getExternalInputProliferatorPoints(settings, item),
             });
             return;
         }
