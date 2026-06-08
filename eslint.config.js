@@ -7,7 +7,7 @@ import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 
 export default [
     {
-        ignores: ['dist/**'],
+        ignores: ['dist/**', '.codex/**'],
     },
     js.configs.recommended,
     {
