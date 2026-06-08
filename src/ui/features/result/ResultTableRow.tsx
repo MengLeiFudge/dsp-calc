@@ -20,8 +20,16 @@ export function ResultTableRow({
     onSplitProductionLine,
     onUnmineralize,
     result_amount,
+    transport_belt_options,
 }) {
     const gross_output = getGrossOutput(result_amount, item_graph, row.item_name);
+    const selected_belt = transport_belt_options.find(option => option["名称"] === settings.full_belt_item)
+        ?? transport_belt_options[transport_belt_options.length - 1];
+    const full_belt_stack = Math.min(100, Math.max(1, Number(settings.full_belt_stack || 4)));
+    const full_belt_capacity = selected_belt
+        ? selected_belt["每秒运量"] * full_belt_stack * (settings.is_time_unit_minute ? 60 : 1)
+        : 0;
+    const full_belt_count = full_belt_capacity > 0 ? gross_output / full_belt_capacity : undefined;
     const mineralized_recipe = {
         名称: `${row.item_name}原矿化补充`,
         原料: {},
@@ -57,6 +65,11 @@ export function ResultTableRow({
                                   set_needs_list={set_needs_list}
                                   value={gross_output}/>
             </div>
+            {full_belt_count !== undefined && gross_output > 0 &&
+                <div className="full-belt-row-hint text-muted"
+                     title={`${selected_belt["名称"]} x 堆叠 ${full_belt_stack}`}>
+                    {full_belt_count.toFixed(2)} 满带
+                </div>}
             {row.from_side_products.map(({from, amount_text}) => (
                 <div key={from} className="text-nowrap">
                     <ItemIcon item={from} size={RESULT_ICON_SIZE}/> +{amount_text}

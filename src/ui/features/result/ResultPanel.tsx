@@ -399,6 +399,20 @@ export function Result({
         set_settings({external_output_proliferator_points: points});
     }
 
+    function update_full_belt_item(item: string) {
+        rememberComparisonBaseline();
+        set_settings({full_belt_item: item});
+    }
+
+    function update_full_belt_stack(raw_stack: string | number) {
+        const parsed_stack = Number.parseInt(String(raw_stack), 10);
+        const full_belt_stack = Number.isFinite(parsed_stack)
+            ? Math.min(100, Math.max(1, parsed_stack))
+            : 4;
+        rememberComparisonBaseline();
+        set_settings({full_belt_stack});
+    }
+
     const {
         building_list,
         energy_cost,
@@ -544,6 +558,7 @@ export function Result({
             onSplitProductionLine={split_production_line}
             onUnmineralize={unmineralize}
             result_amount={result_dict[row.item_name]}
+            transport_belt_options={game_data.transport_belt_data}
         />;
     });
 
@@ -591,6 +606,7 @@ export function Result({
 
     const sidebar_node = <ResultSidebar
         RESULT_ICON_SIZE={RESULT_ICON_SIZE}
+        belt_options={game_data.transport_belt_data}
         building_list={building_list}
         clear_mineralize_list={clear_mineralize_list}
         energy_cost={energy_cost}
@@ -601,6 +617,8 @@ export function Result({
         miner_energy_cost={miner_energy_cost}
         onChangeExternalInputProliferatorPoints={update_external_input_proliferator_points}
         onChangeExternalOutputProliferatorPoints={update_external_output_proliferator_points}
+        onChangeFullBeltItem={update_full_belt_item}
+        onChangeFullBeltStack={update_full_belt_stack}
         previous_sidebar_metrics={previous_sidebar_metrics}
         external_supply_entries={external_supply_entries}
         raw_material_list={raw_material_list}

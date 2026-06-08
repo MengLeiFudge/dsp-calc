@@ -36,6 +36,7 @@ function ValueWithDifference({
 
 export function ResultSidebar({
     RESULT_ICON_SIZE,
+    belt_options,
     building_list,
     clear_mineralize_list,
     energy_cost,
@@ -52,6 +53,8 @@ export function ResultSidebar({
     settings,
     show_item_names,
     surplus_list,
+    onChangeFullBeltItem,
+    onChangeFullBeltStack,
     unmineralize,
 }) {
     const mineralize_doms = Object.keys(mineralize_list).map(item => (
@@ -122,6 +125,33 @@ export function ResultSidebar({
                     />
                 </div>
             </div>
+        </div>;
+    }
+
+    function renderFullBeltControls() {
+        return <div className="full-belt-controls">
+            <label className="full-belt-control-row">
+                <span className="full-belt-label">传送带</span>
+                <select className="form-select form-select-sm full-belt-select"
+                        value={settings.full_belt_item}
+                        onChange={event => onChangeFullBeltItem(event.target.value)}>
+                    {belt_options.map(option => (
+                        <option key={option["名称"]} value={option["名称"]}>
+                            {option["名称"]}（{option["每秒运量"]}/s）
+                        </option>
+                    ))}
+                </select>
+            </label>
+            <label className="full-belt-control-row">
+                <span className="full-belt-label">堆叠</span>
+                <input className="form-control form-control-sm full-belt-stack-input"
+                       type="number"
+                       min={1}
+                       max={100}
+                       step={1}
+                       value={settings.full_belt_stack}
+                       onChange={event => onChangeFullBeltStack(event.target.value)}/>
+            </label>
         </div>;
     }
 
@@ -339,6 +369,12 @@ export function ResultSidebar({
             <legend><small>外部增产</small></legend>
             {renderExternalProliferatorControls()}
         </fieldset>
+
+        {belt_options.length > 0 &&
+            <fieldset className="result-sidebar-card">
+                <legend><small>满带统计</small></legend>
+                {renderFullBeltControls()}
+            </fieldset>}
 
         {raw_material_entries.length > 0 &&
             <fieldset className="result-sidebar-card">

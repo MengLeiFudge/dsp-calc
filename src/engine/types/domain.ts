@@ -16,6 +16,11 @@ export interface FactoryInfo {
     占地: number;
 }
 
+export interface TransportBeltInfo {
+    名称: string;
+    每秒运量: number;
+}
+
 export interface RecipeData {
     名称: string;
     原料: NumericMap;
@@ -77,6 +82,7 @@ export interface GameData {
     item_icon_name: Record<string, string>;
     recipe_data: RecipeData[];
     factory_data: FactoryInfo[][];
+    transport_belt_data: TransportBeltInfo[];
     proliferator_data: ProliferatorData[];
     proliferator_effect: ProliferatorEffect[];
 }
@@ -143,6 +149,8 @@ export interface Settings {
     external_supply_proliferator_points: NumericMap;
     external_input_proliferator_points: number;
     external_output_proliferator_points: number;
+    full_belt_item: string;
+    full_belt_stack: number;
     natural_production_line: NaturalProductionLineRow[];
 }
 
@@ -294,6 +302,9 @@ export interface RawItemData {
     Name: string;
     GridIndex: number;
     IconName: string;
+    BeltSpeed?: number;
+    BeltSpeedPerSecond?: number;
+    BeltSpeedPerMinute?: number;
     WorkEnergyPerTick?: number;
     Speed?: number;
     MultipleOutput?: number;

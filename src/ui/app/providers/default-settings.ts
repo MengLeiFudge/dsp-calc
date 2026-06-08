@@ -1,3 +1,4 @@
+import {get_default_full_belt_item} from '@engine/data/gameData';
 import type {Settings} from '@engine/types/domain';
 import type {GameData} from '@engine/types/domain';
 
@@ -40,6 +41,8 @@ export const DEFAULT_SETTINGS: Settings = {
     external_supply_proliferator_points: {},
     external_input_proliferator_points: 0,
     external_output_proliferator_points: 0,
+    full_belt_item: "极速传送带",
+    full_belt_stack: 4,
     natural_production_line: [],
 };
 
@@ -47,6 +50,7 @@ export function get_default_settings_for_game_data(game_data: GameData): Setting
     const base_settings: Settings = {
         ...DEFAULT_SETTINGS,
         mineralize_list: {},
+        full_belt_item: get_default_full_belt_item(game_data),
         natural_production_line: [],
     };
     if (game_data.GenesisBookEnable) {

@@ -10,7 +10,8 @@ import type {
     RawGameDataFile,
     RawItemData,
     RawRecipeData,
-    RecipeData
+    RecipeData,
+    TransportBeltInfo
 } from '@engine/types/domain';
 
 /*
@@ -206,9 +207,20 @@ function get_dark_fog_drop_rate_per_minute(item: RawItemData, base_level = DARK_
 
 const name_icon_list: Record<string, string> = {};
 
+const FALLBACK_BELT_SPEED_BY_ITEM_ID: Record<number, number> = {
+    2001: 6,
+    2002: 12,
+    2003: 30,
+};
+
 const VanillaGUID = "Vanilla";
 export const default_game_data = build_game_data([VanillaGUID], VanillaData as RawGameDataFile);
 export const vanilla_game_version = game_data_info_list[0].version;
+
+export function get_default_full_belt_item(game_data: GameData): string {
+    const transport_belts = game_data.transport_belt_data;
+    return transport_belts[transport_belts.length - 1]?.["名称"] || "极速传送带";
+}
 
 function get_json_file_name(mod_guid_list: string[]): string {
     //guid 指 name_en + version
@@ -251,6 +263,7 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
         item_icon_name: {},
         recipe_data: [],
         factory_data: [],
+        transport_belt_data: [],
         proliferator_data: [],
         proliferator_effect: [],
     };
@@ -296,6 +309,21 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
         }
         data.item_icon_name[item["Name"]] = item["IconName"];
     })
+
+    const transport_belt_data: TransportBeltInfo[] = [];
+    json_data.items.forEach(function (item: RawItemData) {
+        const belt_speed_per_second = item.BeltSpeedPerSecond
+            ?? (item.BeltSpeedPerMinute === undefined ? undefined : item.BeltSpeedPerMinute / 60)
+            ?? item.BeltSpeed
+            ?? FALLBACK_BELT_SPEED_BY_ITEM_ID[item.ID];
+        if (belt_speed_per_second && belt_speed_per_second > 0) {
+            transport_belt_data.push({
+                "名称": item["Name"],
+                "每秒运量": belt_speed_per_second,
+            });
+        }
+    });
+    data.transport_belt_data = transport_belt_data.sort((left, right) => left["每秒运量"] - right["每秒运量"]);
 
     //data.recipe_data & data.factory_data
     function get_item_by_id(itemID: number): RawItemData | undefined {

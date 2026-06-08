@@ -797,6 +797,40 @@ legend {
     max-width: 100%;
 }
 
+.full-belt-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 100%;
+}
+
+.full-belt-control-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 100%;
+}
+
+.full-belt-label {
+    flex: 0 0 3em;
+    text-align: right;
+}
+
+.full-belt-select {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.full-belt-stack-input {
+    width: 5.5em;
+    flex: 0 0 5.5em;
+}
+
+.full-belt-row-hint {
+    font-size: 0.78em;
+    line-height: 1.2;
+}
+
 .header-navbar {
     row-gap: 0.5rem;
 }

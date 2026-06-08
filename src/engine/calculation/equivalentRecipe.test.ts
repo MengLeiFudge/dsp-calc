@@ -56,6 +56,7 @@ test('黑雾基地等级倍率按 30 级原始基准换算等效配方', () => {
             {名称: '行星基地', 耗能: 0, 倍率: 10000, 产物倍率: 1, 占地: 0},
         ]],
         TheyComeFromVoidEnable: false,
+        transport_belt_data: [],
         proliferator_data: [],
         proliferator_effect: [],
     };
