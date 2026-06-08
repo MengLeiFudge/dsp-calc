@@ -1,6 +1,6 @@
 import {type PointerEvent as ReactPointerEvent, useContext, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {Offcanvas} from 'react-bootstrap';
-import {FaChartBar, FaFileExport} from 'react-icons/fa';
+import {FaChartBar, FaDownload, FaFileExport} from 'react-icons/fa';
 import {GlobalState} from '@engine/calculation/globalState';
 import structuredClone from '@ungap/structured-clone';
 import {GameInfoContext, GlobalStateContext, SchemeDataSetterContext, SettingsSetterContext} from '@ui/app/providers/app-contexts';
@@ -11,6 +11,7 @@ import {buildSideProducts} from './resultGraphHelpers';
 import {addMineralizedItem, clearMineralizedItems, hasMineralizedItem, removeMineralizedItem} from '@engine/calculation/mineralizeState';
 import {buildResultRowActions} from './resultRowActions';
 import {buildResultRowsViewModel} from './resultRowsViewModel';
+import {buildGameBlueprintExport, saveGameBlueprintFile} from './gameBlueprintExport';
 import {buildCalculatorTableExportData, downloadCalculatorTableExport} from './resultTableExport';
 import {ResultTableRow} from './ResultTableRow';
 import {ceilFromDisplayed, roundToFixed} from '@lib/number';
@@ -215,6 +216,7 @@ export function Result({
     const RESULT_ICON_SIZE = ITEM_ICON_CONTENT_SIZE;
     const result_layout_ref = useRef<HTMLDivElement | null>(null);
     const result_table_shell_ref = useRef<HTMLDivElement | null>(null);
+    const [blueprint_message, set_blueprint_message] = useState<{kind: 'success' | 'warning' | 'danger'; text: string} | null>(null);
     const [is_mobile_sidebar, set_is_mobile_sidebar] = useState(() =>
         typeof window !== 'undefined' && window.matchMedia('(max-width: 767.98px)').matches);
     const [sidebar_show, set_sidebar_show] = useState(false);
@@ -594,6 +596,44 @@ export function Result({
         }));
     }
 
+    async function export_game_blueprint_file() {
+        const result = buildGameBlueprintExport({
+            globalState: global_state,
+            needsList: needs_list,
+            resultDict: result_dict,
+            rowViewModels: row_view_models,
+            buildingList: building_list,
+            rawMaterialList: raw_material_list,
+            energyCost: energy_cost,
+            minerEnergyCost: miner_energy_cost,
+            fixedNum: fixed_num,
+            itemGraph: item_graph,
+            naturalProductionLine: natural_production_line,
+            timeTick: time_tick,
+        });
+
+        if (result.ok === false) {
+            set_blueprint_message({
+                kind: 'danger',
+                text: result.errors.concat(result.warnings).join('；'),
+            });
+            return;
+        }
+
+        try {
+            const fileName = await saveGameBlueprintFile(result.blueprint);
+            set_blueprint_message({
+                kind: result.warnings.length > 0 ? 'warning' : 'success',
+                text: `已生成 DSP 蓝图文件 ${fileName}，包含 ${result.buildingCount} 个生产建筑。${result.warnings.join('；')}`,
+            });
+        } catch (error) {
+            set_blueprint_message({
+                kind: 'danger',
+                text: error instanceof Error ? error.message : '生成蓝图文件失败。',
+            });
+        }
+    }
+
     const sidebar_node = <ResultSidebar
         RESULT_ICON_SIZE={RESULT_ICON_SIZE}
         belt_options={game_data.transport_belt_data}
@@ -622,6 +662,14 @@ export function Result({
                 <div className="result-table-toolbar">
                     <button type="button"
                             className="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-1 mobile-icon-button"
+                            title="导出蓝图文件"
+                            aria-label="导出蓝图文件"
+                            onClick={export_game_blueprint_file}>
+                        <FaDownload/>
+                        <span className="mobile-icon-button-label">导出蓝图文件</span>
+                    </button>
+                    <button type="button"
+                            className="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-1 mobile-icon-button"
                             title="导出表格"
                             aria-label="导出表格"
                             onClick={export_table_data}>
@@ -629,6 +677,10 @@ export function Result({
                         <span className="mobile-icon-button-label">导出表格</span>
                     </button>
                 </div>
+                {blueprint_message &&
+                    <div className={`alert alert-${blueprint_message.kind} py-2 px-3 mb-2`} role="alert">
+                        {blueprint_message.text}
+                    </div>}
                 {lp_issue_alert}
                 <div className="result-table-scroll">
                     <table className="table table-sm align-middle w-auto result-table">

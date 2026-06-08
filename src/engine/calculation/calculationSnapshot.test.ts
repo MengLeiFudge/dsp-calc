@@ -26,6 +26,8 @@ test('物品成本使用已包含建筑倍率的等效产出率', () => {
         item_grid: {},
         item_grid_index_valid: {},
         item_icon_name: {},
+        item_game_id: {},
+        item_model_index: {},
         recipe_data: [{
             名称: '高速熔炼',
             原料: {铁矿: 1},

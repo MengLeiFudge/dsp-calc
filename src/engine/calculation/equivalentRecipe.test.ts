@@ -35,6 +35,8 @@ test('黑雾基地等级倍率按 30 级原始基准换算等效配方', () => {
         item_grid: {},
         item_grid_index_valid: {},
         item_icon_name: {},
+        item_game_id: {},
+        item_model_index: {},
         recipe_data: [
             {
                 名称: '[无中生有]模组黑雾掉落',

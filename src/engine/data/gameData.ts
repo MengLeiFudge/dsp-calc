@@ -80,12 +80,12 @@ export const game_data_info_list: GameDataInfo[] = [
     {
         "name_en": "OrbitalRing",
         "name_cn": "星环",
-        "version": "1.0.7",
+        "version": "1.0.8",
     },
     {
         "name_en": "FractionateEverything",
         "name_cn": "万物分馏",
-        "version": "2.3.0",
+        "version": "3.0.0",
     },
 ]
 
@@ -261,6 +261,8 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
         item_grid: {},
         item_grid_index_valid: {},
         item_icon_name: {},
+        item_game_id: {},
+        item_model_index: {},
         recipe_data: [],
         factory_data: [],
         transport_belt_data: [],
@@ -308,6 +310,10 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
                 && grid_index % 100 >= 1 && grid_index % 100 <= 14;
         }
         data.item_icon_name[item["Name"]] = item["IconName"];
+        data.item_game_id[item["Name"]] = item["ID"];
+        if (item.ModelIndex !== undefined) {
+            data.item_model_index[item["Name"]] = item.ModelIndex;
+        }
     })
 
     const transport_belt_data: TransportBeltInfo[] = [];
@@ -320,6 +326,8 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
             transport_belt_data.push({
                 "名称": item["Name"],
                 "每秒运量": belt_speed_per_second,
+                itemId: item.ID,
+                modelIndex: item.ModelIndex,
             });
         }
     });
@@ -384,6 +392,8 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
             "设施": 设施,
             "时间": 时间,
             "增产": 增产,
+            gameRecipeId: recipe.ID,
+            gameRecipeType: recipe.Type,
         };
 
         const 主产物 = build_fractionate_outputs(recipe.OutputMain, get_item_by_id);
@@ -438,6 +448,11 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
                 "倍率": 0,
                 "产物倍率": 1,
                 "占地": 0,
+                itemId: undefined,
+                modelIndex: undefined,
+                assemblerRecipeType: undefined,
+                isAssembler: undefined,
+                isLab: undefined,
             };
             const item = get_item_by_id(FactoriesArr[i][j]);
             if (!item) {
@@ -447,6 +462,11 @@ function build_game_data(mod_guid_list: string[], json_data: RawGameDataFile): G
             factory["名称"] = item["Name"];
             factory["耗能"] = (item["WorkEnergyPerTick"] ?? 0) * 0.00006;
             factory["倍率"] = item["Speed"] ?? 0;
+            factory.itemId = item.ID;
+            factory.modelIndex = item.ModelIndex;
+            factory.assemblerRecipeType = item.AssemblerRecipeType;
+            factory.isAssembler = item.IsAssembler;
+            factory.isLab = item.IsLab;
             if (factory["名称"] === "行星基地") {
                 factory["倍率"] = 1;
             }

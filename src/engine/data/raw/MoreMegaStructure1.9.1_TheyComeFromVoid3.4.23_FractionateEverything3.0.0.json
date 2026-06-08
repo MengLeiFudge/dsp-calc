@@ -59,6 +59,7 @@
       "IconName": "iron-plate"
     },
     {
+      "ID": 1,
       "Type": 1,
       "Factories": [
         2302,
@@ -83,6 +84,7 @@
       "IconName": "iron-plate"
     },
     {
+      "ID": 2,
       "Type": 1,
       "Factories": [
         2302,
@@ -165,6 +167,7 @@
       "IconName": "copper-plate"
     },
     {
+      "ID": 3,
       "Type": 1,
       "Factories": [
         2302,
@@ -189,6 +192,7 @@
       "IconName": "copper-plate"
     },
     {
+      "ID": 4,
       "Type": 1,
       "Factories": [
         2302,
@@ -213,6 +217,7 @@
       "IconName": "stone-brick"
     },
     {
+      "ID": 5,
       "Type": 4,
       "Factories": [
         2303,
@@ -238,6 +243,7 @@
       "IconName": "gear-wheel"
     },
     {
+      "ID": 6,
       "Type": 4,
       "Factories": [
         2303,
@@ -265,6 +271,7 @@
       "IconName": "magnetism-wire"
     },
     {
+      "ID": 7,
       "Type": 4,
       "Factories": [
         2303,
@@ -294,6 +301,7 @@
       "IconName": "wind-turbine"
     },
     {
+      "ID": 8,
       "Type": 4,
       "Factories": [
         2303,
@@ -321,6 +329,7 @@
       "IconName": "tesla-coil"
     },
     {
+      "ID": 9,
       "Type": 15,
       "Factories": [
         2901,
@@ -346,6 +355,7 @@
       "IconName": "t-matrix"
     },
     {
+      "ID": 10,
       "Type": 4,
       "Factories": [
         2303,
@@ -377,6 +387,7 @@
       "IconName": "lab"
     },
     {
+      "ID": 11,
       "Type": 4,
       "Factories": [
         2303,
@@ -402,6 +413,7 @@
       "IconName": "prism"
     },
     {
+      "ID": 12,
       "Type": 4,
       "Factories": [
         2303,
@@ -429,6 +441,7 @@
       "IconName": "plasma-generator"
     },
     {
+      "ID": 13,
       "Type": 4,
       "Factories": [
         2303,
@@ -456,6 +469,7 @@
       "IconName": "charging-pole"
     },
     {
+      "ID": 14,
       "Type": 4,
       "Factories": [
         2303,
@@ -487,6 +501,7 @@
       "IconName": "oil-extractor"
     },
     {
+      "ID": 15,
       "Type": 4,
       "Factories": [
         2303,
@@ -537,6 +552,7 @@
       "IconName": "hydrogen"
     },
     {
+      "ID": 16,
       "Type": 3,
       "Factories": [
         2308
@@ -619,6 +635,7 @@
       "IconName": "graphite"
     },
     {
+      "ID": 17,
       "Type": 1,
       "Factories": [
         2302,
@@ -643,6 +660,7 @@
       "IconName": "graphite"
     },
     {
+      "ID": 18,
       "Type": 15,
       "Factories": [
         2901,
@@ -668,6 +686,7 @@
       "IconName": "e-matrix"
     },
     {
+      "ID": 19,
       "Type": 4,
       "Factories": [
         2303,
@@ -695,6 +714,7 @@
       "IconName": "hydrogen-energy-fuel"
     },
     {
+      "ID": 20,
       "Type": 4,
       "Factories": [
         2303,
@@ -722,6 +742,7 @@
       "IconName": "fuel-thruster"
     },
     {
+      "ID": 21,
       "Type": 4,
       "Factories": [
         2303,
@@ -749,6 +770,7 @@
       "IconName": "ion-thruster"
     },
     {
+      "ID": 22,
       "Type": 4,
       "Factories": [
         2303,
@@ -780,6 +802,7 @@
       "IconName": "chemical-plant"
     },
     {
+      "ID": 23,
       "Type": 2,
       "Factories": [
         2309,
@@ -823,6 +846,7 @@
       "IconName": "sulphuric-acid"
     },
     {
+      "ID": 24,
       "Type": 2,
       "Factories": [
         2309,
@@ -869,6 +893,7 @@
       "IconName": "crystal-rubber"
     },
     {
+      "ID": 25,
       "Type": 2,
       "Factories": [
         2309,
@@ -896,6 +921,7 @@
       "IconName": "crystal-rubber"
     },
     {
+      "ID": 26,
       "Type": 4,
       "Factories": [
         2303,
@@ -923,6 +949,7 @@
       "IconName": "titan-crystal"
     },
     {
+      "ID": 27,
       "Type": 15,
       "Factories": [
         2901,
@@ -1006,6 +1033,7 @@
       "IconName": "casimir-crystal"
     },
     {
+      "ID": 28,
       "Type": 4,
       "Factories": [
         2303,
@@ -1035,6 +1063,7 @@
       "IconName": "casimir-crystal"
     },
     {
+      "ID": 29,
       "Type": 4,
       "Factories": [
         2303,
@@ -1064,6 +1093,7 @@
       "IconName": "casimir-crystal-lv2"
     },
     {
+      "ID": 30,
       "Type": 4,
       "Factories": [
         2303,
@@ -1093,6 +1123,7 @@
       "IconName": "titan-glass"
     },
     {
+      "ID": 31,
       "Type": 2,
       "Factories": [
         2309,
@@ -1118,6 +1149,7 @@
       "IconName": "graphene"
     },
     {
+      "ID": 32,
       "Type": 2,
       "Factories": [
         2309,
@@ -1143,6 +1175,7 @@
       "IconName": "graphene-lv2"
     },
     {
+      "ID": 33,
       "Type": 2,
       "Factories": [
         2309,
@@ -1187,6 +1220,7 @@
       "IconName": "silicium-ore"
     },
     {
+      "ID": 34,
       "Type": 1,
       "Factories": [
         2302,
@@ -1211,6 +1245,7 @@
       "IconName": "silicium-ore"
     },
     {
+      "ID": 35,
       "Type": 2,
       "Factories": [
         2309,
@@ -1234,6 +1269,7 @@
       "IconName": "nanotube-lv2"
     },
     {
+      "ID": 36,
       "Type": 4,
       "Factories": [
         2303,
@@ -1263,6 +1299,7 @@
       "IconName": "particle-wide-band"
     },
     {
+      "ID": 37,
       "Type": 1,
       "Factories": [
         2302,
@@ -1287,6 +1324,7 @@
       "IconName": "silicium-high-purity"
     },
     {
+      "ID": 38,
       "Type": 4,
       "Factories": [
         2303,
@@ -1314,6 +1352,7 @@
       "IconName": "plane-filter"
     },
     {
+      "ID": 39,
       "Type": 4,
       "Factories": [
         2303,
@@ -1366,6 +1405,7 @@
       "IconName": "deuterium"
     },
     {
+      "ID": 40,
       "Type": 5,
       "Factories": [
         2310
@@ -1388,6 +1428,7 @@
       "IconName": "deuterium"
     },
     {
+      "ID": 41,
       "Type": 4,
       "Factories": [
         2303,
@@ -1417,6 +1458,7 @@
       "IconName": "deuterium-energy-fuel"
     },
     {
+      "ID": 42,
       "Type": 4,
       "Factories": [
         2303,
@@ -1444,6 +1486,7 @@
       "IconName": "fusion-capacitor"
     },
     {
+      "ID": 43,
       "Type": 4,
       "Factories": [
         2303,
@@ -1475,6 +1518,7 @@
       "IconName": "fusion-reactor"
     },
     {
+      "ID": 44,
       "Type": 4,
       "Factories": [
         2303,
@@ -1506,6 +1550,7 @@
       "IconName": "antimatter-energy-fuel"
     },
     {
+      "ID": 45,
       "Type": 4,
       "Factories": [
         2303,
@@ -1535,6 +1580,7 @@
       "IconName": "assembler-1"
     },
     {
+      "ID": 46,
       "Type": 4,
       "Factories": [
         2303,
@@ -1564,6 +1610,7 @@
       "IconName": "assembler-2"
     },
     {
+      "ID": 47,
       "Type": 4,
       "Factories": [
         2303,
@@ -1593,6 +1640,7 @@
       "IconName": "assembler-3"
     },
     {
+      "ID": 48,
       "Type": 4,
       "Factories": [
         2303,
@@ -1624,6 +1672,7 @@
       "IconName": "mining-drill"
     },
     {
+      "ID": 49,
       "Type": 4,
       "Factories": [
         2303,
@@ -1655,6 +1704,7 @@
       "IconName": "water-pump"
     },
     {
+      "ID": 50,
       "Type": 4,
       "Factories": [
         2303,
@@ -1682,6 +1732,7 @@
       "IconName": "circuit-board"
     },
     {
+      "ID": 51,
       "Type": 4,
       "Factories": [
         2303,
@@ -1709,6 +1760,7 @@
       "IconName": "processor"
     },
     {
+      "ID": 52,
       "Type": 4,
       "Factories": [
         2303,
@@ -1736,6 +1788,7 @@
       "IconName": "quantum-processor"
     },
     {
+      "ID": 53,
       "Type": 4,
       "Factories": [
         2303,
@@ -1763,6 +1816,7 @@
       "IconName": "micro-component"
     },
     {
+      "ID": 54,
       "Type": 4,
       "Factories": [
         2303,
@@ -1792,6 +1846,7 @@
       "IconName": "crystal-rubber-lv0"
     },
     {
+      "ID": 55,
       "Type": 15,
       "Factories": [
         2901,
@@ -1817,6 +1872,7 @@
       "IconName": "i-matrix"
     },
     {
+      "ID": 56,
       "Type": 4,
       "Factories": [
         2303,
@@ -1848,6 +1904,7 @@
       "IconName": "smelter"
     },
     {
+      "ID": 57,
       "Type": 1,
       "Factories": [
         2302,
@@ -1872,6 +1929,7 @@
       "IconName": "glass"
     },
     {
+      "ID": 58,
       "Type": 3,
       "Factories": [
         2308
@@ -1956,6 +2014,7 @@
       "IconName": "silicium-single-crystal"
     },
     {
+      "ID": 59,
       "Type": 1,
       "Factories": [
         2302,
@@ -1980,6 +2039,7 @@
       "IconName": "silicium-single-crystal"
     },
     {
+      "ID": 60,
       "Type": 1,
       "Factories": [
         2302,
@@ -2004,6 +2064,7 @@
       "IconName": "diamond"
     },
     {
+      "ID": 61,
       "Type": 1,
       "Factories": [
         2302,
@@ -2028,6 +2089,7 @@
       "IconName": "diamond-lv2"
     },
     {
+      "ID": 62,
       "Type": 4,
       "Factories": [
         2303,
@@ -2053,6 +2115,7 @@
       "IconName": "silicium-high-purity-lv2"
     },
     {
+      "ID": 63,
       "Type": 1,
       "Factories": [
         2302,
@@ -2077,6 +2140,7 @@
       "IconName": "steel-plate"
     },
     {
+      "ID": 64,
       "Type": 4,
       "Factories": [
         2303,
@@ -2166,6 +2230,7 @@
       "IconName": "titanium-plate"
     },
     {
+      "ID": 65,
       "Type": 1,
       "Factories": [
         2302,
@@ -2190,6 +2255,7 @@
       "IconName": "titanium-plate"
     },
     {
+      "ID": 66,
       "Type": 1,
       "Factories": [
         2302,
@@ -2218,6 +2284,7 @@
       "IconName": "titanium-alloy"
     },
     {
+      "ID": 67,
       "Type": 4,
       "Factories": [
         2303,
@@ -2247,6 +2314,7 @@
       "IconName": "solar-panel"
     },
     {
+      "ID": 68,
       "Type": 4,
       "Factories": [
         2303,
@@ -2274,6 +2342,7 @@
       "IconName": "photo-shifter"
     },
     {
+      "ID": 69,
       "Type": 4,
       "Factories": [
         2303,
@@ -2301,6 +2370,7 @@
       "IconName": "photo-shifter-lv2"
     },
     {
+      "ID": 70,
       "Type": 4,
       "Factories": [
         2303,
@@ -2328,6 +2398,7 @@
       "IconName": "solar-collector"
     },
     {
+      "ID": 71,
       "Type": 4,
       "Factories": [
         2303,
@@ -2359,6 +2430,7 @@
       "IconName": "em-rail-ejector"
     },
     {
+      "ID": 72,
       "Type": 4,
       "Factories": [
         2303,
@@ -2392,6 +2464,7 @@
       "IconName": "ray-receiver"
     },
     {
+      "ID": 73,
       "Type": 4,
       "Factories": [
         2303,
@@ -2421,6 +2494,7 @@
       "IconName": "orbital-substation"
     },
     {
+      "ID": 74,
       "Type": 5,
       "Factories": [
         2310
@@ -2445,6 +2519,7 @@
       "IconName": "photon-formula"
     },
     {
+      "ID": 75,
       "Type": 15,
       "Factories": [
         2901,
@@ -2478,6 +2553,7 @@
       "IconName": "u-matrix"
     },
     {
+      "ID": 76,
       "Type": 4,
       "Factories": [
         2303,
@@ -2507,6 +2583,7 @@
       "IconName": "accumulator"
     },
     {
+      "ID": 77,
       "Type": 4,
       "Factories": [
         2303,
@@ -2538,6 +2615,7 @@
       "IconName": "energy-exchanger"
     },
     {
+      "ID": 78,
       "Type": 4,
       "Factories": [
         2303,
@@ -2563,6 +2641,7 @@
       "IconName": "space-warper"
     },
     {
+      "ID": 79,
       "Type": 4,
       "Factories": [
         2303,
@@ -2588,6 +2667,7 @@
       "IconName": "space-warper-lv2"
     },
     {
+      "ID": 80,
       "Type": 4,
       "Factories": [
         2303,
@@ -2617,6 +2697,7 @@
       "IconName": "frame-material"
     },
     {
+      "ID": 81,
       "Type": 4,
       "Factories": [
         2303,
@@ -2646,6 +2727,7 @@
       "IconName": "dyson-sphere-component"
     },
     {
+      "ID": 82,
       "Type": 4,
       "Factories": [
         2303,
@@ -2677,6 +2759,7 @@
       "IconName": "vertical-launching-silo"
     },
     {
+      "ID": 83,
       "Type": 4,
       "Factories": [
         2303,
@@ -2706,6 +2789,7 @@
       "IconName": "rocket"
     },
     {
+      "ID": 84,
       "Type": 4,
       "Factories": [
         2303,
@@ -2733,6 +2817,7 @@
       "IconName": "belt-1"
     },
     {
+      "ID": 85,
       "Type": 4,
       "Factories": [
         2303,
@@ -2760,6 +2845,7 @@
       "IconName": "inserter-1"
     },
     {
+      "ID": 86,
       "Type": 4,
       "Factories": [
         2303,
@@ -2787,6 +2873,7 @@
       "IconName": "storage-1"
     },
     {
+      "ID": 87,
       "Type": 4,
       "Factories": [
         2303,
@@ -2816,6 +2903,7 @@
       "IconName": "splitter-4dir"
     },
     {
+      "ID": 88,
       "Type": 4,
       "Factories": [
         2303,
@@ -2843,6 +2931,7 @@
       "IconName": "inserter-2"
     },
     {
+      "ID": 89,
       "Type": 4,
       "Factories": [
         2303,
@@ -2870,6 +2959,7 @@
       "IconName": "belt-2"
     },
     {
+      "ID": 90,
       "Type": 4,
       "Factories": [
         2303,
@@ -2897,6 +2987,7 @@
       "IconName": "inserter-3"
     },
     {
+      "ID": 91,
       "Type": 4,
       "Factories": [
         2303,
@@ -2924,6 +3015,7 @@
       "IconName": "storage-2"
     },
     {
+      "ID": 92,
       "Type": 4,
       "Factories": [
         2303,
@@ -2953,6 +3045,7 @@
       "IconName": "belt-3"
     },
     {
+      "ID": 93,
       "Type": 4,
       "Factories": [
         2303,
@@ -2984,6 +3077,7 @@
       "IconName": "logistic-station"
     },
     {
+      "ID": 94,
       "Type": 4,
       "Factories": [
         2303,
@@ -3013,6 +3107,7 @@
       "IconName": "logistic-drone"
     },
     {
+      "ID": 95,
       "Type": 4,
       "Factories": [
         2303,
@@ -3042,6 +3137,7 @@
       "IconName": "interstellar-logistic-station"
     },
     {
+      "ID": 96,
       "Type": 4,
       "Factories": [
         2303,
@@ -3071,6 +3167,7 @@
       "IconName": "logistic-vessel"
     },
     {
+      "ID": 97,
       "Type": 4,
       "Factories": [
         2303,
@@ -3100,6 +3197,7 @@
       "IconName": "electric-motor"
     },
     {
+      "ID": 98,
       "Type": 4,
       "Factories": [
         2303,
@@ -3127,6 +3225,7 @@
       "IconName": "mag-turbine"
     },
     {
+      "ID": 99,
       "Type": 4,
       "Factories": [
         2303,
@@ -3156,6 +3255,7 @@
       "IconName": "partical-capacitor"
     },
     {
+      "ID": 100,
       "Type": 4,
       "Factories": [
         2303,
@@ -3183,6 +3283,7 @@
       "IconName": "partical-capacitor-lv2"
     },
     {
+      "ID": 101,
       "Type": 4,
       "Factories": [
         2303,
@@ -3210,6 +3311,7 @@
       "IconName": "gravity-lens"
     },
     {
+      "ID": 102,
       "Type": 15,
       "Factories": [
         2901,
@@ -3235,6 +3337,7 @@
       "IconName": "g-matrix"
     },
     {
+      "ID": 103,
       "Type": 4,
       "Factories": [
         2303,
@@ -3264,6 +3367,7 @@
       "IconName": "hyper-magnetism-ring"
     },
     {
+      "ID": 104,
       "Type": 5,
       "Factories": [
         2310
@@ -3290,6 +3394,7 @@
       "IconName": "strange-matter-generator"
     },
     {
+      "ID": 106,
       "Type": 4,
       "Factories": [
         2303,
@@ -3315,6 +3420,7 @@
       "IconName": "accelerator-1"
     },
     {
+      "ID": 107,
       "Type": 4,
       "Factories": [
         2303,
@@ -3342,6 +3448,7 @@
       "IconName": "accelerator-2"
     },
     {
+      "ID": 108,
       "Type": 4,
       "Factories": [
         2303,
@@ -3369,6 +3476,7 @@
       "IconName": "accelerator-3"
     },
     {
+      "ID": 109,
       "Type": 4,
       "Factories": [
         2303,
@@ -3400,6 +3508,7 @@
       "IconName": "spray-coater"
     },
     {
+      "ID": 110,
       "Type": 4,
       "Factories": [
         2303,
@@ -3431,6 +3540,7 @@
       "IconName": "fractionator"
     },
     {
+      "ID": 111,
       "Type": 4,
       "Factories": [
         2303,
@@ -3462,6 +3572,7 @@
       "IconName": "orbital-collector"
     },
     {
+      "ID": 112,
       "Type": 4,
       "Factories": [
         2303,
@@ -3489,6 +3600,7 @@
       "IconName": "terrain-tool"
     },
     {
+      "ID": 113,
       "Type": 4,
       "Factories": [
         2303,
@@ -3520,6 +3632,7 @@
       "IconName": "fusion-power-station"
     },
     {
+      "ID": 114,
       "Type": 4,
       "Factories": [
         2303,
@@ -3549,6 +3662,7 @@
       "IconName": "storage-tank"
     },
     {
+      "ID": 115,
       "Type": 8,
       "Factories": [
         2314
@@ -3583,6 +3697,7 @@
       "IconName": "deuterium-formula"
     },
     {
+      "ID": 116,
       "Type": 4,
       "Factories": [
         2303,
@@ -3614,6 +3729,7 @@
       "IconName": "smelter-2"
     },
     {
+      "ID": 117,
       "Type": 4,
       "Factories": [
         2303,
@@ -3645,6 +3761,7 @@
       "IconName": "monitor"
     },
     {
+      "ID": 118,
       "Type": 4,
       "Factories": [
         2303,
@@ -3676,6 +3793,7 @@
       "IconName": "geothermal-power-station"
     },
     {
+      "ID": 119,
       "Type": 4,
       "Factories": [
         2303,
@@ -3709,6 +3827,7 @@
       "IconName": "mining-drill-mk2"
     },
     {
+      "ID": 120,
       "Type": 4,
       "Factories": [
         2303,
@@ -3740,6 +3859,7 @@
       "IconName": "piler"
     },
     {
+      "ID": 121,
       "Type": 3,
       "Factories": [
         2308
@@ -3766,6 +3886,7 @@
       "IconName": "reforming-refine"
     },
     {
+      "ID": 122,
       "Type": 4,
       "Factories": [
         2303,
@@ -3795,6 +3916,7 @@
       "IconName": "delivery-machine"
     },
     {
+      "ID": 123,
       "Type": 4,
       "Factories": [
         2303,
@@ -3824,6 +3946,7 @@
       "IconName": "delivery-drone"
     },
     {
+      "ID": 124,
       "Type": 4,
       "Factories": [
         2303,
@@ -3855,6 +3978,7 @@
       "IconName": "chemical-plant-2"
     },
     {
+      "ID": 125,
       "Type": 4,
       "Factories": [
         2303,
@@ -3886,6 +4010,7 @@
       "IconName": "turret-gauss"
     },
     {
+      "ID": 126,
       "Type": 4,
       "Factories": [
         2303,
@@ -3917,6 +4042,7 @@
       "IconName": "turret-laser"
     },
     {
+      "ID": 127,
       "Type": 4,
       "Factories": [
         2303,
@@ -3948,6 +4074,7 @@
       "IconName": "turret-cannon"
     },
     {
+      "ID": 128,
       "Type": 4,
       "Factories": [
         2303,
@@ -3981,6 +4108,7 @@
       "IconName": "turret-plasma"
     },
     {
+      "ID": 129,
       "Type": 4,
       "Factories": [
         2303,
@@ -4012,6 +4140,7 @@
       "IconName": "turret-missile"
     },
     {
+      "ID": 130,
       "Type": 4,
       "Factories": [
         2303,
@@ -4043,6 +4172,7 @@
       "IconName": "turret-disturb"
     },
     {
+      "ID": 131,
       "Type": 4,
       "Factories": [
         2303,
@@ -4072,6 +4202,7 @@
       "IconName": "turret-signal"
     },
     {
+      "ID": 132,
       "Type": 4,
       "Factories": [
         2303,
@@ -4103,6 +4234,7 @@
       "IconName": "turret-shield"
     },
     {
+      "ID": 133,
       "Type": 4,
       "Factories": [
         2303,
@@ -4128,6 +4260,7 @@
       "IconName": "explosive"
     },
     {
+      "ID": 134,
       "Type": 2,
       "Factories": [
         2309,
@@ -4155,6 +4288,7 @@
       "IconName": "high-explosive"
     },
     {
+      "ID": 135,
       "Type": 2,
       "Factories": [
         2309,
@@ -4182,6 +4316,7 @@
       "IconName": "particle-explosive"
     },
     {
+      "ID": 136,
       "Type": 4,
       "Factories": [
         2303,
@@ -4207,6 +4342,7 @@
       "IconName": "bullet"
     },
     {
+      "ID": 137,
       "Type": 4,
       "Factories": [
         2303,
@@ -4234,6 +4370,7 @@
       "IconName": "bullet-titanium"
     },
     {
+      "ID": 138,
       "Type": 4,
       "Factories": [
         2303,
@@ -4261,6 +4398,7 @@
       "IconName": "bullet-alloy"
     },
     {
+      "ID": 139,
       "Type": 4,
       "Factories": [
         2303,
@@ -4288,6 +4426,7 @@
       "IconName": "cannonball"
     },
     {
+      "ID": 140,
       "Type": 4,
       "Factories": [
         2303,
@@ -4317,6 +4456,7 @@
       "IconName": "cannonball-cluster"
     },
     {
+      "ID": 141,
       "Type": 4,
       "Factories": [
         2303,
@@ -4346,6 +4486,7 @@
       "IconName": "cannonball-alloy"
     },
     {
+      "ID": 142,
       "Type": 4,
       "Factories": [
         2303,
@@ -4375,6 +4516,7 @@
       "IconName": "capsule-energy"
     },
     {
+      "ID": 143,
       "Type": 4,
       "Factories": [
         2303,
@@ -4406,6 +4548,7 @@
       "IconName": "capsule-antimatter"
     },
     {
+      "ID": 144,
       "Type": 4,
       "Factories": [
         2303,
@@ -4437,6 +4580,7 @@
       "IconName": "missile"
     },
     {
+      "ID": 145,
       "Type": 4,
       "Factories": [
         2303,
@@ -4468,6 +4612,7 @@
       "IconName": "missile-supersonic"
     },
     {
+      "ID": 146,
       "Type": 4,
       "Factories": [
         2303,
@@ -4497,6 +4642,7 @@
       "IconName": "missile-graviton"
     },
     {
+      "ID": 147,
       "Type": 4,
       "Factories": [
         2303,
@@ -4528,6 +4674,7 @@
       "IconName": "fighter-shield"
     },
     {
+      "ID": 148,
       "Type": 4,
       "Factories": [
         2303,
@@ -4559,6 +4706,7 @@
       "IconName": "fighter-plasma"
     },
     {
+      "ID": 149,
       "Type": 4,
       "Factories": [
         2303,
@@ -4590,6 +4738,7 @@
       "IconName": "fighter-laser"
     },
     {
+      "ID": 150,
       "Type": 4,
       "Factories": [
         2303,
@@ -4621,6 +4770,7 @@
       "IconName": "warship-plasma"
     },
     {
+      "ID": 151,
       "Type": 4,
       "Factories": [
         2303,
@@ -4652,6 +4802,7 @@
       "IconName": "warship-laser"
     },
     {
+      "ID": 105,
       "Type": 4,
       "Factories": [
         2303,
@@ -4679,6 +4830,7 @@
       "IconName": "engine"
     },
     {
+      "ID": 152,
       "Type": 4,
       "Factories": [
         2303,
@@ -4710,6 +4862,7 @@
       "IconName": "battle-base"
     },
     {
+      "ID": 153,
       "Type": 4,
       "Factories": [
         2303,
@@ -4741,6 +4894,7 @@
       "IconName": "lab-2"
     },
     {
+      "ID": 154,
       "Type": 4,
       "Factories": [
         2303,
@@ -4772,6 +4926,7 @@
       "IconName": "assembler-4"
     },
     {
+      "ID": 155,
       "Type": 4,
       "Factories": [
         2303,
@@ -4803,6 +4958,7 @@
       "IconName": "smelter-3"
     },
     {
+      "ID": 156,
       "Type": 4,
       "Factories": [
         2303,
@@ -4834,6 +4990,7 @@
       "IconName": "virtual-energy-fuel"
     },
     {
+      "ID": 157,
       "Type": 4,
       "Factories": [
         2303,
@@ -4865,6 +5022,7 @@
       "IconName": "turret-plasma-ground"
     },
     {
+      "ID": 158,
       "Type": 4,
       "Factories": [
         2303,
@@ -4894,6 +5052,7 @@
       "IconName": "em-disturb"
     },
     {
+      "ID": 159,
       "Type": 4,
       "Factories": [
         2303,
@@ -4923,6 +5082,7 @@
       "IconName": "em-suppress"
     },
     {
+      "ID": 160,
       "Type": 4,
       "Factories": [
         2303,
@@ -4952,6 +5112,7 @@
       "IconName": "inserter-4"
     },
     {
+      "ID": 161,
       "Type": 4,
       "Factories": [
         2303,
@@ -4983,6 +5144,7 @@
       "IconName": "lighthouse"
     },
     {
+      "ID": 530,
       "Type": 4,
       "Factories": [
         2303,
@@ -4990,7 +5152,7 @@
         2305,
         2318
       ],
-      "Name": "Gravity generatorRecipe",
+      "Name": "引力发生装置Recipe",
       "Items": [
         1107,
         1127
@@ -5010,6 +5172,7 @@
       "IconName": "gravitygenerator"
     },
     {
+      "ID": 531,
       "Type": 4,
       "Factories": [
         2303,
@@ -5017,7 +5180,7 @@
         2305,
         2318
       ],
-      "Name": "Plane constraint ringRecipe",
+      "Name": "位面约束环Recipe",
       "Items": [
         1205,
         1304
@@ -5037,6 +5200,7 @@
       "IconName": "constrainring"
     },
     {
+      "ID": 532,
       "Type": 4,
       "Factories": [
         2303,
@@ -5044,7 +5208,7 @@
         2305,
         2318
       ],
-      "Name": "Graviton drillRecipe",
+      "Name": "引力钻头Recipe",
       "Items": [
         9480,
         9481,
@@ -5066,6 +5230,7 @@
       "IconName": "gravitydrill2"
     },
     {
+      "ID": 533,
       "Type": 4,
       "Factories": [
         2303,
@@ -5073,7 +5238,7 @@
         2305,
         2318
       ],
-      "Name": "Tunneling exciterRecipe",
+      "Name": "隧穿激发装置Recipe",
       "Items": [
         1303,
         1014
@@ -5093,6 +5258,7 @@
       "IconName": "tunnelingexciter2"
     },
     {
+      "ID": 534,
       "Type": 4,
       "Factories": [
         2303,
@@ -5100,7 +5266,7 @@
         2305,
         2318
       ],
-      "Name": "Resonant discRecipe",
+      "Name": "谐振盘Recipe",
       "Items": [
         9483,
         1113,
@@ -5122,6 +5288,7 @@
       "IconName": "resonancedisc"
     },
     {
+      "ID": 535,
       "Type": 4,
       "Factories": [
         2303,
@@ -5129,7 +5296,7 @@
         2305,
         2318
       ],
-      "Name": "Photon probeRecipe",
+      "Name": "光子探针Recipe",
       "Items": [
         1404,
         1208
@@ -5149,6 +5316,7 @@
       "IconName": "photonprobeflipsmall"
     },
     {
+      "ID": 536,
       "Type": 4,
       "Factories": [
         2303,
@@ -5156,7 +5324,7 @@
         2305,
         2318
       ],
-      "Name": "Quantum computerRecipe",
+      "Name": "量子计算机Recipe",
       "Items": [
         1305,
         1402,
@@ -5178,6 +5346,7 @@
       "IconName": "quantumcomputer3"
     },
     {
+      "ID": 537,
       "Type": 4,
       "Factories": [
         2303,
@@ -5185,7 +5354,7 @@
         2305,
         2318
       ],
-      "Name": "Interstellar assembly componentRecipe",
+      "Name": "星际组装厂组件Recipe",
       "Items": [
         1125,
         2305,
@@ -5207,6 +5376,7 @@
       "IconName": "iacomponent"
     },
     {
+      "ID": 538,
       "Type": 4,
       "Factories": [
         2303,
@@ -5214,7 +5384,7 @@
         2305,
         2318
       ],
-      "Name": "Matter decompressor carrier rocketRecipe",
+      "Name": "物质解压器运载火箭Recipe",
       "Items": [
         9482,
         9484,
@@ -5236,6 +5406,7 @@
       "IconName": "rocketMatter"
     },
     {
+      "ID": 539,
       "Type": 4,
       "Factories": [
         2303,
@@ -5243,7 +5414,7 @@
         2305,
         2318
       ],
-      "Name": "Science nexus carrier rocketRecipe",
+      "Name": "科学枢纽运载火箭Recipe",
       "Items": [
         9481,
         9486,
@@ -5265,6 +5436,7 @@
       "IconName": "rocketScience"
     },
     {
+      "ID": 540,
       "Type": 4,
       "Factories": [
         2303,
@@ -5272,7 +5444,7 @@
         2305,
         2318
       ],
-      "Name": "Resonant generator carrier rocketRecipe",
+      "Name": "谐振发射器运载火箭Recipe",
       "Items": [
         9480,
         9484,
@@ -5294,6 +5466,7 @@
       "IconName": "rocketWarp"
     },
     {
+      "ID": 541,
       "Type": 4,
       "Factories": [
         2303,
@@ -5301,7 +5474,7 @@
         2305,
         2318
       ],
-      "Name": "Interstellar assembly carrier rocketRecipe",
+      "Name": "星际组装厂运载火箭Recipe",
       "Items": [
         9487,
         1802
@@ -5321,6 +5494,7 @@
       "IconName": "rocketAssembly"
     },
     {
+      "ID": 542,
       "Type": 4,
       "Factories": [
         2303,
@@ -5328,7 +5502,7 @@
         2305,
         2318
       ],
-      "Name": "Crystal reconstructor carrier rocketRecipe",
+      "Name": "晶体重构器运载火箭Recipe",
       "Items": [
         9485,
         1802,
@@ -5350,6 +5524,7 @@
       "IconName": "rocketCrystal"
     },
     {
+      "ID": 565,
       "Type": 4,
       "Factories": [
         2303,
@@ -5377,6 +5552,7 @@
       "IconName": "forceGen"
     },
     {
+      "ID": 566,
       "Type": 5,
       "Factories": [
         2310
@@ -5407,6 +5583,7 @@
       "IconName": "compoCrystal"
     },
     {
+      "ID": 567,
       "Type": 4,
       "Factories": [
         2303,
@@ -5434,6 +5611,7 @@
       "IconName": "elemaginhibitor2"
     },
     {
+      "ID": 568,
       "Type": 4,
       "Factories": [
         2303,
@@ -5463,6 +5641,7 @@
       "IconName": "gluonGen"
     },
     {
+      "ID": 569,
       "Type": 4,
       "Factories": [
         2303,
@@ -5490,6 +5669,7 @@
       "IconName": "strIntOverloader"
     },
     {
+      "ID": 570,
       "Type": 4,
       "Factories": [
         2303,
@@ -5519,6 +5699,7 @@
       "IconName": "starcannonframe"
     },
     {
+      "ID": 571,
       "Type": 4,
       "Factories": [
         2303,
@@ -5546,6 +5727,7 @@
       "IconName": "starcannoncompo"
     },
     {
+      "ID": 572,
       "Type": 4,
       "Factories": [
         2303,
@@ -5575,6 +5757,7 @@
       "IconName": "rocketStarcannon"
     },
     {
+      "ID": 573,
       "Type": 4,
       "Factories": [
         2303,
@@ -5604,6 +5787,7 @@
       "IconName": "drop1"
     },
     {
+      "ID": 575,
       "Type": 4,
       "Factories": [
         2303,
@@ -5631,6 +5815,7 @@
       "IconName": "exchangeLS"
     },
     {
+      "ID": 921,
       "Type": 4,
       "Factories": [
         2303,
@@ -5656,6 +5841,7 @@
       "IconName": "interaction-tower"
     },
     {
+      "ID": 922,
       "Type": 4,
       "Factories": [
         2303,
@@ -5681,31 +5867,7 @@
       "IconName": "mineral-copy-tower"
     },
     {
-      "Type": 4,
-      "Factories": [
-        2303,
-        2304,
-        2305,
-        2318
-      ],
-      "Name": "点数聚集塔",
-      "Items": [
-        8016
-      ],
-      "ItemCounts": [
-        2
-      ],
-      "Results": [
-        8023
-      ],
-      "ResultCounts": [
-        3
-      ],
-      "TimeSpend": 60,
-      "Proliferator": 1,
-      "IconName": "point-aggregate-tower"
-    },
-    {
+      "ID": 924,
       "Type": 4,
       "Factories": [
         2303,
@@ -5731,6 +5893,7 @@
       "IconName": "conversion-tower"
     },
     {
+      "ID": 925,
       "Type": 4,
       "Factories": [
         2303,
@@ -5756,6 +5919,7 @@
       "IconName": "deconstruction-tower"
     },
     {
+      "ID": 931,
       "Type": 4,
       "Factories": [
         2303,
@@ -5783,6 +5947,7 @@
       "IconName": "interaction-station"
     },
     {
+      "ID": 932,
       "Type": 4,
       "Factories": [
         2303,
@@ -5810,6 +5975,7 @@
       "IconName": "interstellar-interaction-station"
     },
     {
+      "ID": 554,
       "Type": 4,
       "Factories": [
         2303,
@@ -5835,6 +6001,7 @@
       "IconName": "Rassembly"
     },
     {
+      "ID": 551,
       "Type": 4,
       "Factories": [
         2303,
@@ -5860,6 +6027,7 @@
       "IconName": "Rbelt"
     },
     {
+      "ID": 556,
       "Type": 4,
       "Factories": [
         2303,
@@ -5885,6 +6053,7 @@
       "IconName": "Rchemical2"
     },
     {
+      "ID": 558,
       "Type": 4,
       "Factories": [
         2303,
@@ -5910,6 +6079,7 @@
       "IconName": "Rcollider"
     },
     {
+      "ID": 562,
       "Type": 4,
       "Factories": [
         2303,
@@ -5937,6 +6107,7 @@
       "IconName": "Rstellalogistic"
     },
     {
+      "ID": 559,
       "Type": 4,
       "Factories": [
         2303,
@@ -5962,6 +6133,7 @@
       "IconName": "Rlab"
     },
     {
+      "ID": 561,
       "Type": 4,
       "Factories": [
         2303,
@@ -5989,6 +6161,7 @@
       "IconName": "Rlogistic"
     },
     {
+      "ID": 553,
       "Type": 4,
       "Factories": [
         2303,
@@ -6014,6 +6187,7 @@
       "IconName": "Rpower"
     },
     {
+      "ID": 560,
       "Type": 4,
       "Factories": [
         2303,
@@ -6039,6 +6213,7 @@
       "IconName": "Rreactor"
     },
     {
+      "ID": 557,
       "Type": 4,
       "Factories": [
         2303,
@@ -6066,6 +6241,7 @@
       "IconName": "Rrefinery"
     },
     {
+      "ID": 555,
       "Type": 4,
       "Factories": [
         2303,
@@ -6091,6 +6267,7 @@
       "IconName": "Rsmelter"
     },
     {
+      "ID": 552,
       "Type": 4,
       "Factories": [
         2303,
@@ -6116,6 +6293,7 @@
       "IconName": "Rsorter"
     },
     {
+      "ID": 352,
       "Type": 4,
       "Factories": [
         2303,
@@ -6141,6 +6319,7 @@
       "IconName": "Rsorter4"
     },
     {
+      "ID": 353,
       "Type": 4,
       "Factories": [
         2303,
@@ -6166,6 +6345,7 @@
       "IconName": "Rassembly4"
     },
     {
+      "ID": 354,
       "Type": 4,
       "Factories": [
         2303,
@@ -6191,6 +6371,7 @@
       "IconName": "Rsmelter3"
     },
     {
+      "ID": 355,
       "Type": 4,
       "Factories": [
         2303,
@@ -6216,6 +6397,7 @@
       "IconName": "Rlab2"
     },
     {
+      "ID": 356,
       "Type": 4,
       "Factories": [
         2303,
@@ -6241,6 +6423,7 @@
       "IconName": "Rmining2"
     },
     {
+      "ID": 357,
       "Type": 4,
       "Factories": [
         2303,
@@ -6305,9 +6488,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6360,9 +6543,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6417,9 +6600,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6478,9 +6661,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6537,9 +6720,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6605,9 +6788,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6666,9 +6849,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6721,9 +6904,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6777,9 +6960,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6832,9 +7015,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6868,9 +7051,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -6964,9 +7147,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7019,9 +7202,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7115,9 +7298,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7601,9 +7784,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7655,9 +7838,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7691,9 +7874,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7729,9 +7912,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7773,9 +7956,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7833,9 +8016,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7927,9 +8110,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -7981,9 +8164,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8037,9 +8220,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8098,9 +8281,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8139,9 +8322,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8229,9 +8412,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8301,9 +8484,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8357,9 +8540,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8416,9 +8599,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8560,9 +8743,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8598,9 +8781,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8639,9 +8822,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8693,9 +8876,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8731,9 +8914,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8772,9 +8955,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8808,9 +8991,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8846,9 +9029,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8887,9 +9070,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8923,9 +9106,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -8961,9 +9144,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9002,9 +9185,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9038,9 +9221,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9074,9 +9257,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9110,9 +9293,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9148,9 +9331,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9189,9 +9372,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9225,9 +9408,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9261,9 +9444,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9299,9 +9482,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9344,9 +9527,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9394,9 +9577,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9444,9 +9627,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9492,9 +9675,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9552,9 +9735,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9590,9 +9773,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9650,9 +9833,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9688,9 +9871,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9748,9 +9931,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9786,9 +9969,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9846,9 +10029,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9884,9 +10067,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9944,9 +10127,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -9980,9 +10163,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10035,9 +10218,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10071,9 +10254,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10107,9 +10290,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10145,9 +10328,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10186,9 +10369,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10222,9 +10405,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10260,9 +10443,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10303,9 +10486,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10344,9 +10527,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10384,9 +10567,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10434,9 +10617,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10484,9 +10667,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10534,9 +10717,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10580,9 +10763,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10616,9 +10799,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10652,9 +10835,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10688,9 +10871,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10726,9 +10909,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10769,9 +10952,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10810,9 +10993,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10846,9 +11029,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10884,9 +11067,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10925,9 +11108,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -10963,9 +11146,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11004,9 +11187,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11042,9 +11225,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11085,9 +11268,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11126,9 +11309,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11162,9 +11345,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11198,9 +11381,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11236,9 +11419,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11277,9 +11460,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11313,9 +11496,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11349,9 +11532,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11385,9 +11568,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11421,9 +11604,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11459,9 +11642,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11504,9 +11687,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11616,9 +11799,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11666,9 +11849,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11716,9 +11899,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11762,9 +11945,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11802,9 +11985,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11848,9 +12031,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11888,9 +12071,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11938,9 +12121,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -11986,9 +12169,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12027,9 +12210,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12063,9 +12246,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12101,9 +12284,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12144,9 +12327,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12187,9 +12370,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12230,9 +12413,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12273,9 +12456,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12318,9 +12501,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12368,9 +12551,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12418,9 +12601,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12468,9 +12651,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12516,9 +12699,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12541,7 +12724,7 @@
       "Factories": [
         2
       ],
-      "Name": "[无中生有]Multi-functional integrated components",
+      "Name": "[无中生有]多功能集成组件",
       "Items": [],
       "ItemCounts": [],
       "Results": [
@@ -12575,9 +12758,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12615,9 +12798,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12663,7 +12846,7 @@
       "Factories": [
         0
       ],
-      "Name": "[无中生有]凝缩残片",
+      "Name": "[无中生有]电磁精华",
       "Items": [],
       "ItemCounts": [],
       "Results": [
@@ -12681,7 +12864,7 @@
       "Factories": [
         0
       ],
-      "Name": "[无中生有]晶化残片",
+      "Name": "[无中生有]能量精华",
       "Items": [],
       "ItemCounts": [],
       "Results": [
@@ -12699,7 +12882,7 @@
       "Factories": [
         0
       ],
-      "Name": "[无中生有]棱镜残片",
+      "Name": "[无中生有]结构精华",
       "Items": [],
       "ItemCounts": [],
       "Results": [
@@ -12717,7 +12900,7 @@
       "Factories": [
         0
       ],
-      "Name": "[无中生有]回响残片",
+      "Name": "[无中生有]信息精华",
       "Items": [],
       "ItemCounts": [],
       "Results": [
@@ -12735,7 +12918,7 @@
       "Factories": [
         0
       ],
-      "Name": "[无中生有]记忆痕迹",
+      "Name": "[无中生有]引力精华",
       "Items": [],
       "ItemCounts": [],
       "Results": [
@@ -12753,29 +12936,11 @@
       "Factories": [
         0
       ],
-      "Name": "[无中生有]记忆碎晶",
+      "Name": "[无中生有]宇宙精华",
       "Items": [],
       "ItemCounts": [],
       "Results": [
         8066
-      ],
-      "ResultCounts": [
-        1
-      ],
-      "TimeSpend": 60,
-      "Proliferator": 0,
-      "IconName": "copy-essence"
-    },
-    {
-      "Type": -1,
-      "Factories": [
-        0
-      ],
-      "Name": "[无中生有]记忆核心",
-      "Items": [],
-      "ItemCounts": [],
-      "Results": [
-        8067
       ],
       "ResultCounts": [
         1
@@ -12879,9 +13044,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12940,9 +13105,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -12959,67 +13124,6 @@
       ],
       "OutputAppend": [],
       "IconName": "frac-proto-uncommon"
-    },
-    {
-      "Type": -1,
-      "Factories": [
-        0
-      ],
-      "Name": "[无中生有]点数聚集塔原胚",
-      "Items": [],
-      "ItemCounts": [],
-      "Results": [
-        8013
-      ],
-      "ResultCounts": [
-        1
-      ],
-      "TimeSpend": 60,
-      "Proliferator": 0,
-      "IconName": "frac-proto-rare"
-    },
-    {
-      "Type": -1,
-      "Factories": [
-        8021
-      ],
-      "Name": "[建筑培养]点数聚集塔原胚",
-      "Items": [
-        8013
-      ],
-      "ItemCounts": [
-        1.0
-      ],
-      "Results": [
-        8023,
-        8016
-      ],
-      "ResultCounts": [
-        1.0,
-        1.0
-      ],
-      "TimeSpend": 0,
-      "Proliferator": 1,
-      "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
-      "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
-      "PointsBonus": 0.0,
-      "SuccessBoost": 0.0,
-      "OutputMain": [
-        {
-          "OutputID": 8023,
-          "OutputCount": 1.0,
-          "SuccessRatio": 0.96
-        },
-        {
-          "OutputID": 8016,
-          "OutputCount": 1.0,
-          "SuccessRatio": 0.04
-        }
-      ],
-      "OutputAppend": [],
-      "IconName": "frac-proto-rare"
     },
     {
       "Type": -1,
@@ -13062,9 +13166,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -13123,9 +13227,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -13184,9 +13288,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -13227,9 +13331,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -13246,49 +13350,6 @@
       ],
       "OutputAppend": [],
       "IconName": "mineral-copy-tower"
-    },
-    {
-      "Type": -1,
-      "Factories": [
-        8021
-      ],
-      "Name": "[建筑培养]点数聚集塔",
-      "Items": [
-        8023
-      ],
-      "ItemCounts": [
-        1.0
-      ],
-      "Results": [
-        8013,
-        8016
-      ],
-      "ResultCounts": [
-        1.0,
-        1.0
-      ],
-      "TimeSpend": 0,
-      "Proliferator": 1,
-      "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
-      "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
-      "PointsBonus": 0.0,
-      "SuccessBoost": 0.0,
-      "OutputMain": [
-        {
-          "OutputID": 8013,
-          "OutputCount": 1.0,
-          "SuccessRatio": 0.96
-        },
-        {
-          "OutputID": 8016,
-          "OutputCount": 1.0,
-          "SuccessRatio": 0.04
-        }
-      ],
-      "OutputAppend": [],
-      "IconName": "point-aggregate-tower"
     },
     {
       "Type": -1,
@@ -13313,9 +13374,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -13356,9 +13417,9 @@
       "TimeSpend": 0,
       "Proliferator": 1,
       "SuccessRatio": 0.05,
-      "DestroyRatio": 0.04,
+      "DestroyRatio": 0.0,
       "RemainInputRatio": 0.799999952,
-      "DoubleOutputRatio": 0.5,
+      "DoubleOutputRatio": 0.626,
       "PointsBonus": 0.0,
       "SuccessBoost": 0.0,
       "OutputMain": [
@@ -13389,7 +13450,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 494,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1001,
@@ -13402,7 +13469,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1002,
@@ -13415,7 +13488,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1003,
@@ -13428,7 +13507,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1004,
@@ -13441,7 +13526,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1005,
@@ -13454,7 +13545,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1006,
@@ -13467,7 +13564,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1007,
@@ -13480,7 +13583,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1011,
@@ -13493,7 +13602,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1012,
@@ -13506,7 +13621,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1013,
@@ -13519,7 +13640,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1014,
@@ -13532,7 +13659,13 @@
         0.006,
         0.006
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1015,
@@ -13545,7 +13678,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1016,
@@ -13558,7 +13697,13 @@
         0.012,
         0.004
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1030,
@@ -13571,7 +13716,13 @@
         0.0,
         0.003
       ],
-      "EnemyDropCount": 4.0
+      "EnemyDropCount": 4.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1031,
@@ -13584,7 +13735,13 @@
         0.003,
         0.003
       ],
-      "EnemyDropCount": 4.0
+      "EnemyDropCount": 4.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1101,
@@ -13597,7 +13754,13 @@
         0.016,
         0.01
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1102,
@@ -13610,7 +13773,13 @@
         0.107,
         0.009
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1103,
@@ -13623,7 +13792,13 @@
         0.0635,
         0.007
       ],
-      "EnemyDropCount": 1.6
+      "EnemyDropCount": 1.6,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1104,
@@ -13636,7 +13811,13 @@
         0.026,
         0.01
       ],
-      "EnemyDropCount": 2.4
+      "EnemyDropCount": 2.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1105,
@@ -13649,7 +13830,13 @@
         0.036,
         0.008
       ],
-      "EnemyDropCount": 1.8
+      "EnemyDropCount": 1.8,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1106,
@@ -13662,7 +13849,13 @@
         0.044,
         0.008
       ],
-      "EnemyDropCount": 2.2
+      "EnemyDropCount": 2.2,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1107,
@@ -13675,7 +13868,13 @@
         0.0705,
         0.005
       ],
-      "EnemyDropCount": 1.1
+      "EnemyDropCount": 1.1,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1108,
@@ -13688,7 +13887,13 @@
         0.052,
         0.006
       ],
-      "EnemyDropCount": 1.8
+      "EnemyDropCount": 1.8,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1109,
@@ -13701,7 +13906,13 @@
         0.058,
         0.0055
       ],
-      "EnemyDropCount": 1.6
+      "EnemyDropCount": 1.6,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1110,
@@ -13714,7 +13925,13 @@
         0.0755,
         0.006
       ],
-      "EnemyDropCount": 1.7
+      "EnemyDropCount": 1.7,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1111,
@@ -13727,7 +13944,13 @@
         0.0855,
         0.0055
       ],
-      "EnemyDropCount": 1.4
+      "EnemyDropCount": 1.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1112,
@@ -13740,7 +13963,13 @@
         0.091,
         0.004
       ],
-      "EnemyDropCount": 1.0
+      "EnemyDropCount": 1.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1113,
@@ -13753,7 +13982,13 @@
         0.095,
         0.005
       ],
-      "EnemyDropCount": 1.2
+      "EnemyDropCount": 1.2,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1114,
@@ -13766,7 +14001,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1115,
@@ -13779,7 +14020,13 @@
         0.197,
         0.003
       ],
-      "EnemyDropCount": 1.0
+      "EnemyDropCount": 1.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1116,
@@ -13792,7 +14039,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1117,
@@ -13805,7 +14058,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1118,
@@ -13818,7 +14077,13 @@
         0.205,
         0.003
       ],
-      "EnemyDropCount": 0.8
+      "EnemyDropCount": 0.8,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1119,
@@ -13831,7 +14096,13 @@
         0.0815,
         0.004
       ],
-      "EnemyDropCount": 1.4
+      "EnemyDropCount": 1.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1120,
@@ -13844,7 +14115,13 @@
         0.185,
         0.004
       ],
-      "EnemyDropCount": 1.5
+      "EnemyDropCount": 1.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1121,
@@ -13857,7 +14134,13 @@
         0.189,
         0.002
       ],
-      "EnemyDropCount": 0.8
+      "EnemyDropCount": 0.8,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1122,
@@ -13870,7 +14153,13 @@
         0.191,
         0.002
       ],
-      "EnemyDropCount": 0.3
+      "EnemyDropCount": 0.3,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1123,
@@ -13883,7 +14172,13 @@
         0.2,
         0.003
       ],
-      "EnemyDropCount": 1.0
+      "EnemyDropCount": 1.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1124,
@@ -13896,7 +14191,13 @@
         0.203,
         0.002
       ],
-      "EnemyDropCount": 0.8
+      "EnemyDropCount": 0.8,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1125,
@@ -13909,7 +14210,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1126,
@@ -13922,7 +14229,13 @@
         0.208,
         0.003
       ],
-      "EnemyDropCount": 0.55
+      "EnemyDropCount": 0.55,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1127,
@@ -13935,7 +14248,13 @@
         0.1435,
         0.0035
       ],
-      "EnemyDropCount": 0.4
+      "EnemyDropCount": 0.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1128,
@@ -13948,7 +14267,13 @@
         0.211,
         0.004
       ],
-      "EnemyDropCount": 1.0
+      "EnemyDropCount": 1.0,
+      "ModelIndex": 489,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1129,
@@ -13961,7 +14286,13 @@
         0.215,
         0.003
       ],
-      "EnemyDropCount": 0.7
+      "EnemyDropCount": 0.7,
+      "ModelIndex": 490,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1130,
@@ -13974,7 +14305,13 @@
         0.218,
         0.002
       ],
-      "EnemyDropCount": 0.5
+      "EnemyDropCount": 0.5,
+      "ModelIndex": 491,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1131,
@@ -13987,7 +14324,13 @@
         0.2435,
         0.005
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1141,
@@ -14000,7 +14343,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1142,
@@ -14013,7 +14362,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1143,
@@ -14026,7 +14381,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1201,
@@ -14039,7 +14400,13 @@
         0.1,
         0.007
       ],
-      "EnemyDropCount": 1.7
+      "EnemyDropCount": 1.7,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1202,
@@ -14052,7 +14419,13 @@
         0.116,
         0.007
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1203,
@@ -14065,7 +14438,13 @@
         0.123,
         0.006
       ],
-      "EnemyDropCount": 1.2
+      "EnemyDropCount": 1.2,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1204,
@@ -14078,7 +14457,13 @@
         0.129,
         0.0055
       ],
-      "EnemyDropCount": 0.8
+      "EnemyDropCount": 0.8,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1205,
@@ -14091,7 +14476,13 @@
         0.1345,
         0.005
       ],
-      "EnemyDropCount": 0.5
+      "EnemyDropCount": 0.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1206,
@@ -14104,7 +14495,13 @@
         0.1395,
         0.004
       ],
-      "EnemyDropCount": 0.4
+      "EnemyDropCount": 0.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1208,
@@ -14117,7 +14514,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1209,
@@ -14130,7 +14533,13 @@
         0.22,
         0.002
       ],
-      "EnemyDropCount": 0.4
+      "EnemyDropCount": 0.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1210,
@@ -14143,7 +14552,13 @@
         0.222,
         0.002
       ],
-      "EnemyDropCount": 0.3
+      "EnemyDropCount": 0.3,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1301,
@@ -14156,7 +14571,13 @@
         0.147,
         0.007
       ],
-      "EnemyDropCount": 2.0
+      "EnemyDropCount": 2.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1302,
@@ -14169,7 +14590,13 @@
         0.161,
         0.007
       ],
-      "EnemyDropCount": 1.0
+      "EnemyDropCount": 1.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1303,
@@ -14182,7 +14609,13 @@
         0.154,
         0.004
       ],
-      "EnemyDropCount": 0.75
+      "EnemyDropCount": 0.75,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1304,
@@ -14195,7 +14628,13 @@
         0.168,
         0.004
       ],
-      "EnemyDropCount": 0.4
+      "EnemyDropCount": 0.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1305,
@@ -14208,7 +14647,13 @@
         0.158,
         0.003
       ],
-      "EnemyDropCount": 0.25
+      "EnemyDropCount": 0.25,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1401,
@@ -14221,7 +14666,13 @@
         0.176,
         0.0045
       ],
-      "EnemyDropCount": 1.3
+      "EnemyDropCount": 1.3,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1402,
@@ -14234,7 +14685,13 @@
         0.172,
         0.004
       ],
-      "EnemyDropCount": 0.25
+      "EnemyDropCount": 0.25,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1403,
@@ -14247,7 +14704,13 @@
         0.224,
         0.0015
       ],
-      "EnemyDropCount": 0.3
+      "EnemyDropCount": 0.3,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1404,
@@ -14260,7 +14723,13 @@
         0.1805,
         0.0045
       ],
-      "EnemyDropCount": 1.4
+      "EnemyDropCount": 1.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1405,
@@ -14273,7 +14742,13 @@
         0.2325,
         0.006
       ],
-      "EnemyDropCount": 0.6
+      "EnemyDropCount": 0.6,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1406,
@@ -14286,7 +14761,13 @@
         0.2385,
         0.005
       ],
-      "EnemyDropCount": 0.3
+      "EnemyDropCount": 0.3,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1407,
@@ -14299,7 +14780,13 @@
         0.2255,
         0.007
       ],
-      "EnemyDropCount": 1.0
+      "EnemyDropCount": 1.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1501,
@@ -14312,7 +14799,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1502,
@@ -14325,7 +14818,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1503,
@@ -14338,7 +14837,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 75,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1601,
@@ -14351,7 +14856,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1602,
@@ -14364,7 +14875,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1603,
@@ -14377,7 +14894,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1604,
@@ -14390,7 +14913,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 486,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1605,
@@ -14403,7 +14932,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 487,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1606,
@@ -14416,7 +14951,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 488,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1607,
@@ -14429,7 +14970,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1608,
@@ -14442,7 +14989,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1609,
@@ -14455,7 +15008,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 432,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1610,
@@ -14468,7 +15027,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 433,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1611,
@@ -14481,7 +15046,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 434,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1612,
@@ -14494,7 +15065,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 492,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1613,
@@ -14507,7 +15084,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 493,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1801,
@@ -14520,7 +15103,13 @@
         0.193,
         0.002
       ],
-      "EnemyDropCount": 0.5
+      "EnemyDropCount": 0.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1802,
@@ -14533,7 +15122,13 @@
         0.195,
         0.001
       ],
-      "EnemyDropCount": 0.4
+      "EnemyDropCount": 0.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1803,
@@ -14546,7 +15141,13 @@
         0.196,
         0.001
       ],
-      "EnemyDropCount": 0.3
+      "EnemyDropCount": 0.3,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 1804,
@@ -14559,7 +15160,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2001,
@@ -14572,7 +15179,14 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 35,
+      "IsBelt": true,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "BeltSpeedPerSecond": 6.0
     },
     {
       "ID": 2002,
@@ -14585,7 +15199,14 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 36,
+      "IsBelt": true,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "BeltSpeedPerSecond": 12.0
     },
     {
       "ID": 2003,
@@ -14598,7 +15219,14 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 37,
+      "IsBelt": true,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "BeltSpeedPerSecond": 30.0
     },
     {
       "ID": 2011,
@@ -14611,7 +15239,15 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 41,
+      "IsBelt": false,
+      "IsInserter": true,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "InserterGrade": 1,
+      "InserterSTT": 200000
     },
     {
       "ID": 2012,
@@ -14624,7 +15260,15 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 42,
+      "IsBelt": false,
+      "IsInserter": true,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "InserterGrade": 2,
+      "InserterSTT": 100000
     },
     {
       "ID": 2013,
@@ -14637,7 +15281,15 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 43,
+      "IsBelt": false,
+      "IsInserter": true,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "InserterGrade": 3,
+      "InserterSTT": 50000
     },
     {
       "ID": 2014,
@@ -14650,7 +15302,15 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 483,
+      "IsBelt": false,
+      "IsInserter": true,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
+      "InserterGrade": 4,
+      "InserterSTT": 30000
     },
     {
       "ID": 2020,
@@ -14663,7 +15323,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 38,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2030,
@@ -14676,7 +15342,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 208,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2040,
@@ -14689,7 +15361,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 257,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2101,
@@ -14702,7 +15380,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 51,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2102,
@@ -14715,7 +15399,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 52,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2103,
@@ -14728,7 +15418,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 49,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2104,
@@ -14741,7 +15437,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 50,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2105,
@@ -14755,6 +15457,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 117,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 500000,
       "BuildIndex": 605,
       "MultiLevel": false,
@@ -14773,7 +15481,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 121,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2107,
@@ -14786,7 +15500,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 371,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2201,
@@ -14799,7 +15519,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 44,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2202,
@@ -14812,7 +15538,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 71,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2203,
@@ -14825,7 +15557,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 53,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2204,
@@ -14838,7 +15576,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 54,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2205,
@@ -14851,7 +15595,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 55,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2206,
@@ -14865,6 +15615,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 46,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 0,
       "BuildIndex": 109,
       "MultiLevel": false,
@@ -14884,6 +15640,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 46,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 0,
       "BuildIndex": 0,
       "MultiLevel": false,
@@ -14903,6 +15665,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 73,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 0,
       "BuildIndex": 803,
       "MultiLevel": false,
@@ -14922,6 +15690,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 45,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 0,
       "BuildIndex": 606,
       "MultiLevel": false,
@@ -14940,7 +15714,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 56,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2211,
@@ -14953,7 +15733,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 118,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2212,
@@ -14966,7 +15752,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 68,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2213,
@@ -14979,7 +15771,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 255,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2301,
@@ -14993,6 +15791,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 57,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 7000,
       "BuildIndex": 201,
       "MultiLevel": false,
@@ -15012,6 +15816,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 62,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 1,
       "WorkEnergyPerTick": 6000,
       "BuildIndex": 501,
       "MultiLevel": false,
@@ -15031,6 +15841,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 65,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 4,
       "WorkEnergyPerTick": 4500,
       "BuildIndex": 503,
       "MultiLevel": false,
@@ -15050,6 +15866,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 66,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 4,
       "WorkEnergyPerTick": 9000,
       "BuildIndex": 504,
       "MultiLevel": false,
@@ -15069,6 +15891,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 67,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 4,
       "WorkEnergyPerTick": 18000,
       "BuildIndex": 505,
       "MultiLevel": false,
@@ -15088,6 +15916,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 60,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 5000,
       "BuildIndex": 203,
       "MultiLevel": false,
@@ -15107,6 +15941,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 61,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 14000,
       "BuildIndex": 204,
       "MultiLevel": false,
@@ -15126,6 +15966,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 63,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 3,
       "WorkEnergyPerTick": 16000,
       "BuildIndex": 506,
       "MultiLevel": false,
@@ -15145,6 +15991,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 64,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 2,
       "WorkEnergyPerTick": 12000,
       "BuildIndex": 508,
       "MultiLevel": false,
@@ -15164,6 +16016,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 69,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 5,
       "WorkEnergyPerTick": 200000,
       "BuildIndex": 510,
       "MultiLevel": false,
@@ -15182,7 +16040,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 72,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2312,
@@ -15195,7 +16059,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 74,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2313,
@@ -15208,7 +16078,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 120,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2314,
@@ -15222,6 +16098,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 119,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 8,
       "WorkEnergyPerTick": 12000,
       "BuildIndex": 507,
       "MultiLevel": false,
@@ -15241,6 +16123,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 194,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 1,
       "WorkEnergyPerTick": 24000,
       "BuildIndex": 502,
       "MultiLevel": false,
@@ -15260,6 +16148,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 256,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 49000,
       "BuildIndex": 202,
       "MultiLevel": false,
@@ -15279,6 +16173,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 376,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 2,
       "WorkEnergyPerTick": 36000,
       "BuildIndex": 509,
       "MultiLevel": false,
@@ -15298,6 +16198,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 456,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 4,
       "WorkEnergyPerTick": 45000,
       "BuildIndex": 808,
       "MultiLevel": false,
@@ -15317,6 +16223,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 457,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": true,
+      "IsLab": false,
+      "AssemblerRecipeType": 1,
       "WorkEnergyPerTick": 48000,
       "BuildIndex": 807,
       "MultiLevel": false,
@@ -15335,7 +16247,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 664,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 2901,
@@ -15349,6 +16267,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 70,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": true,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 8000,
       "BuildIndex": 801,
       "MultiLevel": true,
@@ -15368,6 +16292,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 455,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": true,
+      "AssemblerRecipeType": 0,
       "WorkEnergyPerTick": 32000,
       "BuildIndex": 806,
       "MultiLevel": true,
@@ -15386,7 +16316,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 374,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3002,
@@ -15399,7 +16335,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 373,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3003,
@@ -15412,7 +16354,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 375,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3004,
@@ -15425,7 +16373,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 408,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3005,
@@ -15438,7 +16392,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 407,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3006,
@@ -15451,7 +16411,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 422,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3007,
@@ -15464,7 +16430,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 403,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3008,
@@ -15477,7 +16449,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 402,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3009,
@@ -15490,7 +16468,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 453,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 3010,
@@ -15503,7 +16487,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 482,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5001,
@@ -15516,7 +16506,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 47,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5002,
@@ -15529,7 +16525,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 48,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5003,
@@ -15542,7 +16544,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 372,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5101,
@@ -15555,7 +16563,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 448,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5102,
@@ -15568,7 +16582,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 449,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5103,
@@ -15581,7 +16601,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 450,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5111,
@@ -15594,7 +16620,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 451,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5112,
@@ -15607,7 +16639,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 452,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5201,
@@ -15620,7 +16658,13 @@
         0.2485,
         0.01
       ],
-      "EnemyDropCount": 2.5
+      "EnemyDropCount": 2.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5202,
@@ -15633,7 +16677,13 @@
         0.2585,
         0.009
       ],
-      "EnemyDropCount": 1.5
+      "EnemyDropCount": 1.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5203,
@@ -15646,7 +16696,13 @@
         0.2675,
         0.008
       ],
-      "EnemyDropCount": 1.5
+      "EnemyDropCount": 1.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5204,
@@ -15659,7 +16715,13 @@
         0.2755,
         0.006
       ],
-      "EnemyDropCount": 1.4
+      "EnemyDropCount": 1.4,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5205,
@@ -15672,7 +16734,13 @@
         0.2815,
         0.0065
       ],
-      "EnemyDropCount": 1.5
+      "EnemyDropCount": 1.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 5206,
@@ -15685,7 +16753,13 @@
         0.288,
         0.012
       ],
-      "EnemyDropCount": 2.5
+      "EnemyDropCount": 2.5,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 6001,
@@ -15698,7 +16772,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 6002,
@@ -15711,7 +16791,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 6003,
@@ -15724,7 +16810,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 6004,
@@ -15737,7 +16829,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 6005,
@@ -15750,7 +16848,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 6006,
@@ -15763,7 +16867,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8011,
@@ -15776,7 +16886,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8012,
@@ -15789,20 +16905,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
-    },
-    {
-      "ID": 8013,
-      "Type": 2,
-      "Name": "点数聚集塔原胚",
-      "GridIndex": 4203,
-      "IconName": "frac-proto-rare",
-      "EnemyDropLevel": 0,
-      "EnemyDropRange": [
-        0.0,
-        0.0
-      ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8014,
@@ -15815,7 +16924,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8015,
@@ -15828,7 +16943,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8016,
@@ -15841,7 +16962,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8021,
@@ -15855,6 +16982,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 601,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 8,
       "WorkEnergyPerTick": 12000,
       "BuildIndex": 0,
       "MultiLevel": false,
@@ -15874,25 +17007,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
-      "WorkEnergyPerTick": 12000,
-      "BuildIndex": 0,
-      "MultiLevel": false,
-      "Speed": 1.0,
-      "MultipleOutput": 1,
-      "Space": 12.96
-    },
-    {
-      "ID": 8023,
-      "Type": 6,
-      "Name": "点数聚集塔",
-      "GridIndex": 4303,
-      "IconName": "point-aggregate-tower",
-      "EnemyDropLevel": 0,
-      "EnemyDropRange": [
-        0.0,
-        0.0
-      ],
-      "EnemyDropCount": 0.0,
+      "ModelIndex": 602,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 8,
       "WorkEnergyPerTick": 12000,
       "BuildIndex": 0,
       "MultiLevel": false,
@@ -15912,6 +17032,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 604,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 8,
       "WorkEnergyPerTick": 12000,
       "BuildIndex": 0,
       "MultiLevel": false,
@@ -15931,6 +17057,12 @@
         0.0
       ],
       "EnemyDropCount": 0.0,
+      "ModelIndex": 605,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 8,
       "WorkEnergyPerTick": 12000,
       "BuildIndex": 0,
       "MultiLevel": false,
@@ -15949,7 +17081,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 611,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8032,
@@ -15962,7 +17100,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 612,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8060,
@@ -15975,12 +17119,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8061,
       "Type": 2,
-      "Name": "凝缩残片",
+      "Name": "电磁精华",
       "GridIndex": 4102,
       "IconName": "copy-essence",
       "EnemyDropLevel": 0,
@@ -15988,12 +17138,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8062,
       "Type": 2,
-      "Name": "晶化残片",
+      "Name": "能量精华",
       "GridIndex": 4103,
       "IconName": "copy-essence",
       "EnemyDropLevel": 0,
@@ -16001,12 +17157,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8063,
       "Type": 2,
-      "Name": "棱镜残片",
+      "Name": "结构精华",
       "GridIndex": 4104,
       "IconName": "copy-essence",
       "EnemyDropLevel": 0,
@@ -16014,12 +17176,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8064,
       "Type": 2,
-      "Name": "回响残片",
+      "Name": "信息精华",
       "GridIndex": 4105,
       "IconName": "copy-essence",
       "EnemyDropLevel": 0,
@@ -16027,12 +17195,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8065,
       "Type": 2,
-      "Name": "记忆痕迹",
+      "Name": "引力精华",
       "GridIndex": 4106,
       "IconName": "copy-essence",
       "EnemyDropLevel": 0,
@@ -16040,12 +17214,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8066,
       "Type": 2,
-      "Name": "记忆碎晶",
+      "Name": "宇宙精华",
       "GridIndex": 4107,
       "IconName": "copy-essence",
       "EnemyDropLevel": 0,
@@ -16053,20 +17233,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
-    },
-    {
-      "ID": 8067,
-      "Type": 2,
-      "Name": "记忆核心",
-      "GridIndex": 4108,
-      "IconName": "copy-essence",
-      "EnemyDropLevel": 0,
-      "EnemyDropRange": [
-        0.0,
-        0.0
-      ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8068,
@@ -16079,7 +17252,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8069,
@@ -16092,7 +17271,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 8070,
@@ -16105,12 +17290,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9480,
       "Type": 3,
-      "Name": "Gravity generator",
+      "Name": "引力发生装置",
       "GridIndex": 3101,
       "IconName": "gravitygenerator",
       "EnemyDropLevel": 0,
@@ -16118,12 +17309,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9481,
       "Type": 3,
-      "Name": "Plane constraint ring",
+      "Name": "位面约束环",
       "GridIndex": 3102,
       "IconName": "constrainring",
       "EnemyDropLevel": 0,
@@ -16131,12 +17328,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9482,
       "Type": 3,
-      "Name": "Graviton drill",
+      "Name": "引力钻头",
       "GridIndex": 3103,
       "IconName": "gravitydrill2",
       "EnemyDropLevel": 0,
@@ -16144,12 +17347,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9483,
       "Type": 3,
-      "Name": "Tunneling exciter",
+      "Name": "隧穿激发装置",
       "GridIndex": 3104,
       "IconName": "tunnelingexciter2",
       "EnemyDropLevel": 0,
@@ -16157,12 +17366,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9484,
       "Type": 3,
-      "Name": "Resonant disc",
+      "Name": "谐振盘",
       "GridIndex": 3105,
       "IconName": "resonancedisc",
       "EnemyDropLevel": 0,
@@ -16170,12 +17385,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9485,
       "Type": 3,
-      "Name": "Photon probe",
+      "Name": "光子探针",
       "GridIndex": 3106,
       "IconName": "photonprobeflipsmall",
       "EnemyDropLevel": 0,
@@ -16183,12 +17404,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9486,
       "Type": 3,
-      "Name": "Quantum computer",
+      "Name": "量子计算机",
       "GridIndex": 3107,
       "IconName": "quantumcomputer3",
       "EnemyDropLevel": 0,
@@ -16196,12 +17423,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9487,
       "Type": 3,
-      "Name": "Interstellar assembly component",
+      "Name": "星际组装厂组件",
       "GridIndex": 3108,
       "IconName": "iacomponent",
       "EnemyDropLevel": 0,
@@ -16209,12 +17442,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9488,
       "Type": 4,
-      "Name": "Matter decompressor carrier rocket",
+      "Name": "物质解压器运载火箭",
       "GridIndex": 3301,
       "IconName": "rocketMatter",
       "EnemyDropLevel": 0,
@@ -16222,12 +17461,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9489,
       "Type": 4,
-      "Name": "Science nexus carrier rocket",
+      "Name": "科学枢纽运载火箭",
       "GridIndex": 3302,
       "IconName": "rocketScience",
       "EnemyDropLevel": 0,
@@ -16235,12 +17480,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9490,
       "Type": 4,
-      "Name": "Resonant generator carrier rocket",
+      "Name": "谐振发射器运载火箭",
       "GridIndex": 3303,
       "IconName": "rocketWarp",
       "EnemyDropLevel": 0,
@@ -16248,12 +17499,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9491,
       "Type": 4,
-      "Name": "Interstellar assembly carrier rocket",
+      "Name": "星际组装厂运载火箭",
       "GridIndex": 3304,
       "IconName": "rocketAssembly",
       "EnemyDropLevel": 0,
@@ -16261,12 +17518,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9492,
       "Type": 4,
-      "Name": "Crystal reconstructor carrier rocket",
+      "Name": "晶体重构器运载火箭",
       "GridIndex": 3305,
       "IconName": "rocketCrystal",
       "EnemyDropLevel": 0,
@@ -16274,12 +17537,18 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9500,
       "Type": 3,
-      "Name": "Multi-functional integrated components",
+      "Name": "多功能集成组件",
       "GridIndex": 3109,
       "IconName": "integratedcomponents",
       "EnemyDropLevel": 0,
@@ -16287,7 +17556,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9503,
@@ -16300,7 +17575,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9504,
@@ -16313,7 +17594,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9505,
@@ -16326,7 +17613,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9506,
@@ -16339,7 +17632,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9507,
@@ -16352,7 +17651,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9508,
@@ -16365,7 +17670,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9509,
@@ -16378,7 +17689,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9510,
@@ -16391,7 +17708,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9511,
@@ -16404,7 +17727,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 0,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 9512,
@@ -16417,7 +17746,13 @@
         0.0,
         0.0
       ],
-      "EnemyDropCount": 0.0
+      "EnemyDropCount": 0.0,
+      "ModelIndex": 50,
+      "IsBelt": false,
+      "IsInserter": false,
+      "IsAssembler": false,
+      "IsLab": false,
+      "AssemblerRecipeType": 0
     },
     {
       "ID": 0,
@@ -22714,6 +24049,221 @@
       ]
     },
     {
+      "ID": 1999,
+      "Name": "玻色子操控",
+      "HashNeeded": 72000,
+      "Level": 0,
+      "MaxLevel": 0,
+      "IsLabTech": false,
+      "UnlockFunctions": [],
+      "UnlockValues": [],
+      "UnlockRecipes": [
+        573,
+        567,
+        568,
+        569,
+        566
+      ],
+      "PreTechs": [],
+      "PreTechsImplicit": [
+        1823
+      ]
+    },
+    {
+      "ID": 1998,
+      "Name": "并入COSMO架构",
+      "HashNeeded": 299792458000,
+      "Level": 0,
+      "MaxLevel": 0,
+      "IsLabTech": true,
+      "UnlockFunctions": [],
+      "UnlockValues": [],
+      "UnlockRecipes": [],
+      "PreTechs": [],
+      "PreTechsImplicit": []
+    },
+    {
+      "ID": 1997,
+      "Name": "微型恒星能量引导",
+      "HashNeeded": 36000,
+      "Level": 0,
+      "MaxLevel": 0,
+      "IsLabTech": false,
+      "UnlockFunctions": [],
+      "UnlockValues": [],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        1918
+      ],
+      "PreTechsImplicit": []
+    },
+    {
+      "ID": 6601,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 72000,
+      "Level": 1,
+      "MaxLevel": 1,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6602,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 144000,
+      "Level": 2,
+      "MaxLevel": 2,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6601
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6603,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 324000,
+      "Level": 3,
+      "MaxLevel": 3,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6602
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6604,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 576000,
+      "Level": 4,
+      "MaxLevel": 4,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6603
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6605,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 900000,
+      "Level": 5,
+      "MaxLevel": 5,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6604
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6606,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 1296000,
+      "Level": 6,
+      "MaxLevel": 6,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6605
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6607,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 1764000,
+      "Level": 7,
+      "MaxLevel": 7,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6606
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
+      "ID": 6608,
+      "Name": "元驱动挂载点位扩展",
+      "HashNeeded": 2304000,
+      "Level": 8,
+      "MaxLevel": 8,
+      "IsLabTech": false,
+      "UnlockFunctions": [
+        771
+      ],
+      "UnlockValues": [
+        1.0
+      ],
+      "UnlockRecipes": [],
+      "PreTechs": [
+        6607
+      ],
+      "PreTechsImplicit": [
+        1303
+      ]
+    },
+    {
       "ID": 1251,
       "Name": "分馏数据中心",
       "HashNeeded": 3600,
@@ -22875,23 +24425,6 @@
       "UnlockValues": [],
       "UnlockRecipes": [
         922
-      ],
-      "PreTechs": [],
-      "PreTechsImplicit": [
-        1252
-      ]
-    },
-    {
-      "ID": 1255,
-      "Name": "增产点数聚集",
-      "HashNeeded": 3600000,
-      "Level": 0,
-      "MaxLevel": 0,
-      "IsLabTech": false,
-      "UnlockFunctions": [],
-      "UnlockValues": [],
-      "UnlockRecipes": [
-        923
       ],
       "PreTechs": [],
       "PreTechsImplicit": [

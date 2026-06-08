@@ -31,7 +31,7 @@ interface StyledCell {
 type WorksheetCell = StyledCell | CellValue | null | undefined;
 type WorksheetRow = WorksheetCell[];
 
-interface NamedAmount {
+export interface NamedAmount {
     name: string;
     amount: number;
 }
@@ -117,7 +117,7 @@ function subtractItemAmounts(source: NumericMap, amountsToSubtract: NumericMap):
     return result;
 }
 
-function getProliferatorModeText(mode: number): string {
+export function getProliferatorModeText(mode: number): string {
     return ({
         0: '无',
         1: '加速',
@@ -127,7 +127,7 @@ function getProliferatorModeText(mode: number): string {
     } as Record<number, string>)[mode] || `${mode}`;
 }
 
-function getProliferatorItemText(gameData: GameData, mode: number, points: number): string {
+export function getProliferatorItemText(gameData: GameData, mode: number, points: number): string {
     if (mode === 0 || points === 0) {
         return '无';
     }
@@ -135,7 +135,7 @@ function getProliferatorItemText(gameData: GameData, mode: number, points: numbe
     return proliferator?.["名称"] || `${points} 点`;
 }
 
-function getProliferatorCost({
+export function getProliferatorCost({
     globalState,
     baseRecipe,
     mode,
@@ -267,7 +267,7 @@ function buildResultExportRow({
     };
 }
 
-function mapAmountEntries(source: NumericMap): NamedAmount[] {
+export function mapAmountEntries(source: NumericMap): NamedAmount[] {
     return Object.entries(source)
         .filter(([, amount]) => Math.abs(Number(amount || 0)) >= 1e-9)
         .map(([name, amount]) => ({name, amount: Number(amount || 0)}));

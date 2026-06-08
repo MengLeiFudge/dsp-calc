@@ -14,11 +14,18 @@ export interface FactoryInfo {
     倍率: number;
     产物倍率: number;
     占地: number;
+    itemId?: number;
+    modelIndex?: number;
+    assemblerRecipeType?: number;
+    isAssembler?: boolean;
+    isLab?: boolean;
 }
 
 export interface TransportBeltInfo {
     名称: string;
     每秒运量: number;
+    itemId?: number;
+    modelIndex?: number;
 }
 
 export interface RecipeData {
@@ -42,6 +49,8 @@ export interface RecipeData {
         概率: number;
         数量: number;
     };
+    gameRecipeId?: number;
+    gameRecipeType?: number;
 }
 
 export interface ProliferatorEffect {
@@ -80,6 +89,8 @@ export interface GameData {
     item_grid: NumericMap;
     item_grid_index_valid: BooleanMap;
     item_icon_name: Record<string, string>;
+    item_game_id: NumericMap;
+    item_model_index: NumericMap;
     recipe_data: RecipeData[];
     factory_data: FactoryInfo[][];
     transport_belt_data: TransportBeltInfo[];
@@ -301,9 +312,18 @@ export interface RawFractionateOutputInfo {
 
 export interface RawItemData {
     ID: number;
+    Type?: number;
     Name: string;
     GridIndex: number;
     IconName: string;
+    ModelIndex?: number;
+    IsBelt?: boolean;
+    IsInserter?: boolean;
+    IsAssembler?: boolean;
+    IsLab?: boolean;
+    AssemblerRecipeType?: number;
+    InserterGrade?: number;
+    InserterSTT?: number;
     BeltSpeed?: number;
     BeltSpeedPerSecond?: number;
     BeltSpeedPerMinute?: number;
@@ -317,6 +337,8 @@ export interface RawItemData {
 }
 
 export interface RawRecipeData {
+    ID?: number;
+    Type?: number;
     Name: string;
     Items: number[];
     ItemCounts: number[];
