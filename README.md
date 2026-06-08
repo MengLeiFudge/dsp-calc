@@ -30,6 +30,7 @@
 - 再执行 `node scripts/package-offline-release.cjs`
 - 产物会统一生成到 `offline-release/`，该目录不会进入 Git
 - 分发 zip 后，用户解压并用 Chrome / Edge 打开 `index.html` 即可离线使用
+- 离线包通过 `file://` 打开时会在后台检查 GitHub 最新 release；发现新版本后可确认下载最新离线 zip，再手动解压替换当前目录
 
 ## 简介
 

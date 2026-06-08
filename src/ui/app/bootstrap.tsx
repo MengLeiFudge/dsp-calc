@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './AppShell';
 import {Header} from './HeaderBar';
+import {OfflineUpdateChecker} from './offlineUpdateChecker';
 
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/js/dist/dropdown.js';
@@ -20,6 +21,7 @@ if (!headerRoot || !appRoot) {
 ReactDOM.createRoot(headerRoot).render(
     <React.StrictMode>
         <Header/>
+        <OfflineUpdateChecker/>
     </React.StrictMode>,
 )
 
