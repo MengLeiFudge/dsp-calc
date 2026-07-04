@@ -894,6 +894,47 @@
   dependencies:
     tslib "^2.8.0"
 
+"@tauri-apps/api@^2.10.1", "@tauri-apps/api@^2.11.1", "@tauri-apps/api@^2.8.0":
+  version "2.11.1"
+  resolved "https://registry.npmjs.org/@tauri-apps/api/-/api-2.11.1.tgz"
+  integrity sha512-M2FPuYND2m+wh5hfW9ZpSdxMPdEJovPBWwoHJmwUpysTYNHaOkVFN419m/K0LIgjb/7KU2vBgsUepJWugQCvAA==
+
+"@tauri-apps/cli-linux-x64-gnu@2.11.4":
+  version "2.11.4"
+  resolved "https://registry.npmjs.org/@tauri-apps/cli-linux-x64-gnu/-/cli-linux-x64-gnu-2.11.4.tgz"
+  integrity sha512-2VRNWl84FOH0m2giiDkO2h0QXlcMJeX+zJDpI5kDIQAx6s+geF3v48F4DXfJez4GS/FdoDGnPnw1C2iYGbQ7bQ==
+
+"@tauri-apps/cli@^2.11.4":
+  version "2.11.4"
+  resolved "https://registry.npmjs.org/@tauri-apps/cli/-/cli-2.11.4.tgz"
+  integrity sha512-R8xGtMpwyetawSqm9kYOuMmEqkhUbvcUy8n0aNXIxollKBLESUu5f4Fx+64hgASYm1H+jSWq6jCW6zqTnH6hqQ==
+  optionalDependencies:
+    "@tauri-apps/cli-darwin-arm64" "2.11.4"
+    "@tauri-apps/cli-darwin-x64" "2.11.4"
+    "@tauri-apps/cli-linux-arm-gnueabihf" "2.11.4"
+    "@tauri-apps/cli-linux-arm64-gnu" "2.11.4"
+    "@tauri-apps/cli-linux-arm64-musl" "2.11.4"
+    "@tauri-apps/cli-linux-riscv64-gnu" "2.11.4"
+    "@tauri-apps/cli-linux-x64-gnu" "2.11.4"
+    "@tauri-apps/cli-linux-x64-musl" "2.11.4"
+    "@tauri-apps/cli-win32-arm64-msvc" "2.11.4"
+    "@tauri-apps/cli-win32-ia32-msvc" "2.11.4"
+    "@tauri-apps/cli-win32-x64-msvc" "2.11.4"
+
+"@tauri-apps/plugin-process@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.npmjs.org/@tauri-apps/plugin-process/-/plugin-process-2.3.1.tgz"
+  integrity sha512-nCa4fGVaDL/B9ai03VyPOjfAHRHSBz5v6F/ObsB73r/dA3MHHhZtldaDMIc0V/pnUw9ehzr2iEG+XkSEyC0JJA==
+  dependencies:
+    "@tauri-apps/api" "^2.8.0"
+
+"@tauri-apps/plugin-updater@^2.10.1":
+  version "2.10.1"
+  resolved "https://registry.npmjs.org/@tauri-apps/plugin-updater/-/plugin-updater-2.10.1.tgz"
+  integrity sha512-NFYMg+tWOZPJdzE/PpFj2qfqwAWwNS3kXrb1tm1gnBJ9mYzZ4WDRrwy8udzWoAnfGCHLuePNLY1WVCNHnh3eRA==
+  dependencies:
+    "@tauri-apps/api" "^2.10.1"
+
 "@types/esrecurse@^4.3.1":
   version "4.3.1"
   resolved "https://registry.npmjs.org/@types/esrecurse/-/esrecurse-4.3.1.tgz"
