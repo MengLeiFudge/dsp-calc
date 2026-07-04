@@ -30,7 +30,17 @@
 - 再执行 `node scripts/package-offline-release.cjs`
 - 产物会统一生成到 `offline-release/`，该目录不会进入 Git
 - 分发 zip 后，用户解压并用 Chrome / Edge 打开 `index.html` 即可离线使用
-- 离线包通过 `file://` 打开时会在后台检查 GitHub 最新 release；发现新版本后可确认下载最新离线 zip，再手动解压替换当前目录
+- 静态离线包通过 `file://` 打开时会在后台检查 GitHub 最新 release；发现新版本后右下角提示下载最新离线 zip，下载后需要手动解压并覆盖当前目录
+
+## 桌面版离线包
+
+- 桌面版使用 Tauri 壳承载同一套前端页面，构建命令为 `npm run desktop:build`
+- 开发调试可执行 `npm run desktop:dev`
+- 桌面版构建需要 Windows 本机 Rustup、Visual Studio C++ 桌面开发工具链和 Windows SDK
+- 默认签名私钥路径为 `%USERPROFILE%\.tauri\dsp-calculator.key`，也可用 `TAURI_SIGNING_PRIVATE_KEY_PATH` 指定其他私钥路径
+- 桌面版启动后会通过 Tauri updater 检查 GitHub Releases 中的 `latest.json`
+- 发现新版本后右下角提示下载；下载完成后用户确认安装，应用会自动安装更新并重启
+- 发布桌面版更新前必须保管好 Tauri updater 签名私钥，私钥不得进入 Git；release 需要同时上传桌面安装/更新产物、签名和 `latest.json`
 
 ## 简介
 

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "DSP Calculator",
+  "version": "0.6.0",
+  "identifier": "pro.dsp-calc.calculator",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "DSP Calculator",
+        "maximized": true,
+        "width": 1280,
+        "height": 860,
+        "minWidth": 960,
+        "minHeight": 640
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "createUpdaterArtifacts": true,
+    "icon": [
+      "../public/favicon.ico"
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEI0OEZCODYyQTQ2ODY5MDkKUldRSmFXaWtZcmlQdE1uYkFQN0hVNGxpbW9Qa2JxL0NGTFZCSXozRXZEVFR4LzVxNlhxeVNUWGwK",
+      "endpoints": [
+        "https://github.com/DSPCalculator/dsp-calc/releases/latest/download/latest.json"
+      ]
+    }
+  }
+}

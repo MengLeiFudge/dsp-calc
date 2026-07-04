@@ -7,7 +7,7 @@ import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 
 export default [
     {
-        ignores: ['dist/**', '.codex/**'],
+        ignores: ['dist/**', 'src-tauri/target/**', 'src-tauri/gen/**', '.codex/**'],
     },
     js.configs.recommended,
     {
